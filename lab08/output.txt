@@ -1,0 +1,16 @@
+Enter a positive integer: 1000
+
+Height of tree: 18
+Size of tree: 1000
+log base 2 of 1000: 9.96578
+Order check - successful.
+Key of Rank successful
+Rank of Key successful
+
+
+Height of tree: 16
+Size of tree: 500
+log base 2 of 1000: 9.96578
+Order check - successful.
+Key of Rank unsuccessful
+Rank of Key unsuccessful

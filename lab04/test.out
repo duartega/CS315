@@ -1,0 +1,4570 @@
+	.file	"l4.cpp"
+	.section	.rodata
+	.type	_ZStL19piecewise_construct, @object
+	.size	_ZStL19piecewise_construct, 1
+_ZStL19piecewise_construct:
+	.zero	1
+	.section	.text._ZnwmPv,"axG",@progbits,_ZnwmPv,comdat
+	.weak	_ZnwmPv
+	.type	_ZnwmPv, @function
+_ZnwmPv:
+.LFB429:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-16(%rbp), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE429:
+	.size	_ZnwmPv, .-_ZnwmPv
+	.section	.text._ZStorSt13_Ios_OpenmodeS_,"axG",@progbits,_ZStorSt13_Ios_OpenmodeS_,comdat
+	.weak	_ZStorSt13_Ios_OpenmodeS_
+	.type	_ZStorSt13_Ios_OpenmodeS_, @function
+_ZStorSt13_Ios_OpenmodeS_:
+.LFB988:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movl	%edi, -4(%rbp)
+	movl	%esi, -8(%rbp)
+	movl	-4(%rbp), %eax
+	orl	-8(%rbp), %eax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE988:
+	.size	_ZStorSt13_Ios_OpenmodeS_, .-_ZStorSt13_Ios_OpenmodeS_
+	.local	_ZStL8__ioinit
+	.comm	_ZStL8__ioinit,1,1
+	.section	.rodata
+	.type	_ZStL13allocator_arg, @object
+	.size	_ZStL13allocator_arg, 1
+_ZStL13allocator_arg:
+	.zero	1
+	.section	.text._ZN4NodeC2Ei,"axG",@progbits,_ZN4NodeC5Ei,comdat
+	.align 2
+	.weak	_ZN4NodeC2Ei
+	.type	_ZN4NodeC2Ei, @function
+_ZN4NodeC2Ei:
+.LFB1968:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movl	%esi, -12(%rbp)
+	movq	-8(%rbp), %rax
+	movl	-12(%rbp), %edx
+	movl	%edx, 4(%rax)
+	movq	-8(%rbp), %rax
+	movl	$0, (%rax)
+	movq	-8(%rbp), %rax
+	movq	$0, 8(%rax)
+	movq	-8(%rbp), %rax
+	movq	$0, 16(%rax)
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE1968:
+	.size	_ZN4NodeC2Ei, .-_ZN4NodeC2Ei
+	.weak	_ZN4NodeC1Ei
+	.set	_ZN4NodeC1Ei,_ZN4NodeC2Ei
+	.section	.text._ZN4NodeC2EPS_S0_,"axG",@progbits,_ZN4NodeC5EPS_S0_,comdat
+	.align 2
+	.weak	_ZN4NodeC2EPS_S0_
+	.type	_ZN4NodeC2EPS_S0_, @function
+_ZN4NodeC2EPS_S0_:
+.LFB1971:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	%rdx, -24(%rbp)
+	movq	-8(%rbp), %rax
+	movl	$1, (%rax)
+	movq	-8(%rbp), %rax
+	movq	-16(%rbp), %rdx
+	movq	%rdx, 8(%rax)
+	movq	-8(%rbp), %rax
+	movq	-24(%rbp), %rdx
+	movq	%rdx, 16(%rax)
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE1971:
+	.size	_ZN4NodeC2EPS_S0_, .-_ZN4NodeC2EPS_S0_
+	.weak	_ZN4NodeC1EPS_S0_
+	.set	_ZN4NodeC1EPS_S0_,_ZN4NodeC2EPS_S0_
+	.section	.text._ZN4Node7setDownEPS_,"axG",@progbits,_ZN4Node7setDownEPS_,comdat
+	.align 2
+	.weak	_ZN4Node7setDownEPS_
+	.type	_ZN4Node7setDownEPS_, @function
+_ZN4Node7setDownEPS_:
+.LFB1974:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-8(%rbp), %rax
+	movq	-16(%rbp), %rdx
+	movq	%rdx, 8(%rax)
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE1974:
+	.size	_ZN4Node7setDownEPS_, .-_ZN4Node7setDownEPS_
+	.section	.text._ZN4Node7setNextEPS_,"axG",@progbits,_ZN4Node7setNextEPS_,comdat
+	.align 2
+	.weak	_ZN4Node7setNextEPS_
+	.type	_ZN4Node7setNextEPS_, @function
+_ZN4Node7setNextEPS_:
+.LFB1975:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-8(%rbp), %rax
+	movq	-16(%rbp), %rdx
+	movq	%rdx, 16(%rax)
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE1975:
+	.size	_ZN4Node7setNextEPS_, .-_ZN4Node7setNextEPS_
+	.section	.text._ZN4Node4sizeEv,"axG",@progbits,_ZN4Node4sizeEv,comdat
+	.align 2
+	.weak	_ZN4Node4sizeEv
+	.type	_ZN4Node4sizeEv, @function
+_ZN4Node4sizeEv:
+.LFB1981:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$24, %rsp
+	.cfi_offset 3, -24
+	movq	%rdi, -24(%rbp)
+	cmpq	$0, -24(%rbp)
+	jne	.L10
+	movl	$0, %eax
+	jmp	.L11
+.L10:
+	movq	-24(%rbp), %rax
+	movl	(%rax), %eax
+	testl	%eax, %eax
+	jne	.L12
+	movl	$1, %eax
+	jmp	.L11
+.L12:
+	movq	-24(%rbp), %rax
+	movq	8(%rax), %rax
+	movq	%rax, %rdi
+	call	_ZN4Node4sizeEv
+	movl	%eax, %ebx
+	movq	-24(%rbp), %rax
+	movq	16(%rax), %rax
+	movq	%rax, %rdi
+	call	_ZN4Node4sizeEv
+	addl	%ebx, %eax
+.L11:
+	addq	$24, %rsp
+	popq	%rbx
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE1981:
+	.size	_ZN4Node4sizeEv, .-_ZN4Node4sizeEv
+	.section	.rodata
+.LC0:
+	.string	"The list is empty!\n"
+	.section	.text._ZN4Node6updateEii,"axG",@progbits,_ZN4Node6updateEii,comdat
+	.align 2
+	.weak	_ZN4Node6updateEii
+	.type	_ZN4Node6updateEii, @function
+_ZN4Node6updateEii:
+.LFB1982:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -24(%rbp)
+	movl	%esi, -28(%rbp)
+	movl	%edx, -32(%rbp)
+	movq	-24(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZN4Node4sizeEv
+	testl	%eax, %eax
+	sete	%al
+	testb	%al, %al
+	je	.L14
+	movl	$.LC0, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	jmp	.L13
+.L14:
+	movq	-24(%rbp), %rax
+	movl	(%rax), %eax
+	testl	%eax, %eax
+	jne	.L16
+	movq	-24(%rbp), %rax
+	movl	-32(%rbp), %edx
+	movl	%edx, 4(%rax)
+	jmp	.L13
+.L16:
+	movq	-24(%rbp), %rax
+	movq	8(%rax), %rax
+	movq	%rax, %rdi
+	call	_ZN4Node4sizeEv
+	movl	%eax, -4(%rbp)
+	movl	-28(%rbp), %eax
+	cmpl	-4(%rbp), %eax
+	jg	.L17
+	movq	-24(%rbp), %rax
+	movq	8(%rax), %rax
+	movl	-32(%rbp), %edx
+	movl	-28(%rbp), %ecx
+	movl	%ecx, %esi
+	movq	%rax, %rdi
+	call	_ZN4Node6updateEii
+	jmp	.L13
+.L17:
+	movl	-28(%rbp), %eax
+	subl	-4(%rbp), %eax
+	movl	%eax, %ecx
+	movq	-24(%rbp), %rax
+	movq	16(%rax), %rax
+	movl	-32(%rbp), %edx
+	movl	%ecx, %esi
+	movq	%rax, %rdi
+	call	_ZN4Node6updateEii
+.L13:
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE1982:
+	.size	_ZN4Node6updateEii, .-_ZN4Node6updateEii
+	.section	.rodata
+.LC1:
+	.string	"<"
+.LC2:
+	.string	":"
+.LC3:
+	.string	">  "
+	.section	.text._ZN4Node5printEi,"axG",@progbits,_ZN4Node5printEi,comdat
+	.align 2
+	.weak	_ZN4Node5printEi
+	.type	_ZN4Node5printEi, @function
+_ZN4Node5printEi:
+.LFB1984:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$24, %rsp
+	.cfi_offset 3, -24
+	movq	%rdi, -24(%rbp)
+	movl	%esi, -28(%rbp)
+	cmpq	$0, -24(%rbp)
+	je	.L22
+	movq	-24(%rbp), %rax
+	movl	(%rax), %eax
+	testl	%eax, %eax
+	jne	.L21
+	movq	-24(%rbp), %rax
+	movl	4(%rax), %ebx
+	movl	$.LC1, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	%ebx, %esi
+	movq	%rax, %rdi
+	call	_ZNSolsEi
+	movl	$.LC2, %esi
+	movq	%rax, %rdi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movq	%rax, %rdx
+	movl	-28(%rbp), %eax
+	movl	%eax, %esi
+	movq	%rdx, %rdi
+	call	_ZNSolsEi
+	movl	$.LC3, %esi
+	movq	%rax, %rdi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	jmp	.L18
+.L21:
+	movl	-28(%rbp), %eax
+	leal	1(%rax), %edx
+	movq	-24(%rbp), %rax
+	movq	8(%rax), %rax
+	movl	%edx, %esi
+	movq	%rax, %rdi
+	call	_ZN4Node5printEi
+	movq	-24(%rbp), %rax
+	movq	16(%rax), %rax
+	movl	-28(%rbp), %edx
+	movl	%edx, %esi
+	movq	%rax, %rdi
+	call	_ZN4Node5printEi
+	jmp	.L18
+.L22:
+	nop
+.L18:
+	addq	$24, %rsp
+	popq	%rbx
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE1984:
+	.size	_ZN4Node5printEi, .-_ZN4Node5printEi
+	.section	.text._ZN5Stack7IsEmptyEv,"axG",@progbits,_ZN5Stack7IsEmptyEv,comdat
+	.align 2
+	.weak	_ZN5Stack7IsEmptyEv
+	.type	_ZN5Stack7IsEmptyEv, @function
+_ZN5Stack7IsEmptyEv:
+.LFB1985:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movl	4(%rax), %eax
+	cmpl	$-1, %eax
+	sete	%al
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE1985:
+	.size	_ZN5Stack7IsEmptyEv, .-_ZN5Stack7IsEmptyEv
+	.section	.text._ZN5Stack6IsFullEv,"axG",@progbits,_ZN5Stack6IsFullEv,comdat
+	.align 2
+	.weak	_ZN5Stack6IsFullEv
+	.type	_ZN5Stack6IsFullEv, @function
+_ZN5Stack6IsFullEv:
+.LFB1986:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movl	4(%rax), %edx
+	movq	-8(%rbp), %rax
+	movl	(%rax), %eax
+	cmpl	%eax, %edx
+	sete	%al
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE1986:
+	.size	_ZN5Stack6IsFullEv, .-_ZN5Stack6IsFullEv
+	.section	.text._ZN5StackC2Ev,"axG",@progbits,_ZN5StackC5Ev,comdat
+	.align 2
+	.weak	_ZN5StackC2Ev
+	.type	_ZN5StackC2Ev, @function
+_ZN5StackC2Ev:
+.LFB1988:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movl	$-1, 4(%rax)
+	movq	-8(%rbp), %rax
+	movl	$999, (%rax)
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE1988:
+	.size	_ZN5StackC2Ev, .-_ZN5StackC2Ev
+	.weak	_ZN5StackC1Ev
+	.set	_ZN5StackC1Ev,_ZN5StackC2Ev
+	.section	.rodata
+.LC4:
+	.string	"Error: the stack is full."
+	.section	.text._ZN5Stack4PushEP4Node,"axG",@progbits,_ZN5Stack4PushEP4Node,comdat
+	.align 2
+	.weak	_ZN5Stack4PushEP4Node
+	.type	_ZN5Stack4PushEP4Node, @function
+_ZN5Stack4PushEP4Node:
+.LFB1990:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZN5Stack6IsFullEv
+	testb	%al, %al
+	je	.L29
+	movl	$.LC4, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_, %esi
+	movq	%rax, %rdi
+	call	_ZNSolsEPFRSoS_E
+	jmp	.L31
+.L29:
+	movq	-8(%rbp), %rax
+	movl	4(%rax), %eax
+	leal	1(%rax), %edx
+	movq	-8(%rbp), %rax
+	movl	%edx, 4(%rax)
+	movq	-8(%rbp), %rax
+	movl	4(%rax), %edx
+	movq	-8(%rbp), %rax
+	movslq	%edx, %rdx
+	movq	-16(%rbp), %rcx
+	movq	%rcx, 8(%rax,%rdx,8)
+.L31:
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE1990:
+	.size	_ZN5Stack4PushEP4Node, .-_ZN5Stack4PushEP4Node
+	.section	.rodata
+.LC5:
+	.string	"Error: the stack is empty."
+	.section	.text._ZN5Stack3PopEv,"axG",@progbits,_ZN5Stack3PopEv,comdat
+	.align 2
+	.weak	_ZN5Stack3PopEv
+	.type	_ZN5Stack3PopEv, @function
+_ZN5Stack3PopEv:
+.LFB1991:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZN5Stack7IsEmptyEv
+	testb	%al, %al
+	je	.L33
+	movl	$.LC5, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_, %esi
+	movq	%rax, %rdi
+	call	_ZNSolsEPFRSoS_E
+	movl	$0, %eax
+	jmp	.L34
+.L33:
+	movq	-8(%rbp), %rax
+	movl	4(%rax), %eax
+	leal	-1(%rax), %ecx
+	movq	-8(%rbp), %rdx
+	movl	%ecx, 4(%rdx)
+	movq	-8(%rbp), %rdx
+	cltq
+	movq	8(%rdx,%rax,8), %rax
+.L34:
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE1991:
+	.size	_ZN5Stack3PopEv, .-_ZN5Stack3PopEv
+	.section	.text._ZN5Stack3TopEv,"axG",@progbits,_ZN5Stack3TopEv,comdat
+	.align 2
+	.weak	_ZN5Stack3TopEv
+	.type	_ZN5Stack3TopEv, @function
+_ZN5Stack3TopEv:
+.LFB1992:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZN5Stack7IsEmptyEv
+	testb	%al, %al
+	je	.L36
+	movl	$.LC5, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_, %esi
+	movq	%rax, %rdi
+	call	_ZNSolsEPFRSoS_E
+	movl	$0, %eax
+	jmp	.L37
+.L36:
+	movq	-8(%rbp), %rax
+	movl	4(%rax), %edx
+	movq	-8(%rbp), %rax
+	movslq	%edx, %rdx
+	movq	8(%rax,%rdx,8), %rax
+.L37:
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE1992:
+	.size	_ZN5Stack3TopEv, .-_ZN5Stack3TopEv
+	.text
+	.globl	_Z7convertSs
+	.type	_Z7convertSs, @function
+_Z7convertSs:
+.LFB1993:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSs5c_strEv
+	movq	%rax, %rdi
+	call	atoi
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE1993:
+	.size	_Z7convertSs, .-_Z7convertSs
+	.globl	_Z6createSt6vectorISsSaISsEE
+	.type	_Z6createSt6vectorISsSaISsEE, @function
+_Z6createSt6vectorISsSaISsEE:
+.LFB1994:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movl	$0, %eax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE1994:
+	.size	_Z6createSt6vectorISsSaISsEE, .-_Z6createSt6vectorISsSaISsEE
+	.section	.rodata
+.LC6:
+	.string	"["
+.LC7:
+	.string	"]"
+.LC8:
+	.string	"Number"
+.LC9:
+	.string	"Comma"
+.LC10:
+	.string	"Unknown token type\n"
+	.text
+	.globl	_Z17TokenTypeToString9TokenType
+	.type	_Z17TokenTypeToString9TokenType, @function
+_Z17TokenTypeToString9TokenType:
+.LFB1995:
+	.cfi_startproc
+	.cfi_personality 0x3,__gxx_personality_v0
+	.cfi_lsda 0x3,.LLSDA1995
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$40, %rsp
+	.cfi_offset 3, -24
+	movq	%rdi, -40(%rbp)
+	movl	%esi, -44(%rbp)
+	movl	-44(%rbp), %eax
+	cmpl	$1, %eax
+	je	.L44
+	cmpl	$1, %eax
+	jg	.L45
+	testl	%eax, %eax
+	je	.L46
+	jmp	.L43
+.L45:
+	cmpl	$2, %eax
+	je	.L47
+	cmpl	$3, %eax
+	je	.L48
+	jmp	.L43
+.L46:
+	leaq	-20(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSaIcEC1Ev
+	leaq	-20(%rbp), %rdx
+	movq	-40(%rbp), %rax
+	movl	$.LC6, %esi
+	movq	%rax, %rdi
+.LEHB0:
+	call	_ZNSsC1EPKcRKSaIcE
+.LEHE0:
+	leaq	-20(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSaIcED1Ev
+	jmp	.L42
+.L44:
+	leaq	-19(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSaIcEC1Ev
+	leaq	-19(%rbp), %rdx
+	movq	-40(%rbp), %rax
+	movl	$.LC7, %esi
+	movq	%rax, %rdi
+.LEHB1:
+	call	_ZNSsC1EPKcRKSaIcE
+.LEHE1:
+	leaq	-19(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSaIcED1Ev
+	jmp	.L42
+.L48:
+	leaq	-18(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSaIcEC1Ev
+	leaq	-18(%rbp), %rdx
+	movq	-40(%rbp), %rax
+	movl	$.LC8, %esi
+	movq	%rax, %rdi
+.LEHB2:
+	call	_ZNSsC1EPKcRKSaIcE
+.LEHE2:
+	leaq	-18(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSaIcED1Ev
+	jmp	.L42
+.L47:
+	leaq	-17(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSaIcEC1Ev
+	leaq	-17(%rbp), %rdx
+	movq	-40(%rbp), %rax
+	movl	$.LC9, %esi
+	movq	%rax, %rdi
+.LEHB3:
+	call	_ZNSsC1EPKcRKSaIcE
+.LEHE3:
+	leaq	-17(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSaIcED1Ev
+	jmp	.L42
+.L43:
+	movl	$.LC10, %esi
+	movl	$_ZSt4cout, %edi
+.LEHB4:
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$1, %edi
+	call	exit
+.L54:
+	movq	%rax, %rbx
+	leaq	-20(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSaIcED1Ev
+	movq	%rbx, %rax
+	movq	%rax, %rdi
+	call	_Unwind_Resume
+.L55:
+	movq	%rax, %rbx
+	leaq	-19(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSaIcED1Ev
+	movq	%rbx, %rax
+	movq	%rax, %rdi
+	call	_Unwind_Resume
+.L56:
+	movq	%rax, %rbx
+	leaq	-18(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSaIcED1Ev
+	movq	%rbx, %rax
+	movq	%rax, %rdi
+	call	_Unwind_Resume
+.L57:
+	movq	%rax, %rbx
+	leaq	-17(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSaIcED1Ev
+	movq	%rbx, %rax
+	movq	%rax, %rdi
+	call	_Unwind_Resume
+.LEHE4:
+.L42:
+	movq	-40(%rbp), %rax
+	addq	$40, %rsp
+	popq	%rbx
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE1995:
+	.globl	__gxx_personality_v0
+	.section	.gcc_except_table,"a",@progbits
+.LLSDA1995:
+	.byte	0xff
+	.byte	0xff
+	.byte	0x1
+	.uleb128 .LLSDACSE1995-.LLSDACSB1995
+.LLSDACSB1995:
+	.uleb128 .LEHB0-.LFB1995
+	.uleb128 .LEHE0-.LEHB0
+	.uleb128 .L54-.LFB1995
+	.uleb128 0
+	.uleb128 .LEHB1-.LFB1995
+	.uleb128 .LEHE1-.LEHB1
+	.uleb128 .L55-.LFB1995
+	.uleb128 0
+	.uleb128 .LEHB2-.LFB1995
+	.uleb128 .LEHE2-.LEHB2
+	.uleb128 .L56-.LFB1995
+	.uleb128 0
+	.uleb128 .LEHB3-.LFB1995
+	.uleb128 .LEHE3-.LEHB3
+	.uleb128 .L57-.LFB1995
+	.uleb128 0
+	.uleb128 .LEHB4-.LFB1995
+	.uleb128 .LEHE4-.LEHB4
+	.uleb128 0
+	.uleb128 0
+.LLSDACSE1995:
+	.text
+	.size	_Z17TokenTypeToString9TokenType, .-_Z17TokenTypeToString9TokenType
+	.section	.rodata
+	.align 8
+.LC11:
+	.string	"Please enter your generalized list: "
+	.align 8
+.LC12:
+	.string	"\nThe input list (with depth for each key):\n"
+.LC13:
+	.string	"\nWhat would you like to do?\n"
+.LC14:
+	.string	"'u' : Update an element\n"
+	.align 8
+.LC15:
+	.string	"'p' : Print the original list\n"
+.LC16:
+	.string	"'q' : Quit the program\n"
+	.align 8
+.LC17:
+	.string	"\nWhich element would you like to update? "
+	.align 8
+.LC18:
+	.string	"What would you like to update it to? "
+.LC19:
+	.string	"\nThe updated list is:\n"
+.LC20:
+	.string	"\n\nWhat would you like to do?\n"
+.LC21:
+	.string	"\nInvalid index!\n"
+	.align 8
+.LC22:
+	.string	"\nThe program has exited with no errors!\n\n"
+.LC23:
+	.string	"\nThe original list: "
+	.align 8
+.LC24:
+	.string	"\nThe input is invalid: Exiting!\n"
+	.text
+	.globl	main
+	.type	main, @function
+main:
+.LFB1996:
+	.cfi_startproc
+	.cfi_personality 0x3,__gxx_personality_v0
+	.cfi_lsda 0x3,.LLSDA1996
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$168, %rsp
+	.cfi_offset 3, -24
+	leaq	-112(%rbp), %rax
+	movq	%rax, %rdi
+.LEHB5:
+	call	_ZNSsC1Ev
+.LEHE5:
+	leaq	-128(%rbp), %rax
+	movq	%rax, %rdi
+.LEHB6:
+	call	_ZNSsC1Ev
+.LEHE6:
+	movl	$.LC11, %esi
+	movl	$_ZSt4cout, %edi
+.LEHB7:
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_, %esi
+	movq	%rax, %rdi
+	call	_ZNSolsEPFRSoS_E
+	leaq	-112(%rbp), %rax
+	movq	%rax, %rsi
+	movl	$_ZSt3cin, %edi
+	call	_ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RSbIS4_S5_T1_E
+	leaq	-112(%rbp), %rdx
+	leaq	-128(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSsaSERKSs
+.LEHE7:
+	leaq	-160(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6vectorI5TokenSaIS0_EEC1Ev
+	leaq	-112(%rbp), %rdx
+	leaq	-64(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+.LEHB8:
+	call	_ZNSsC1ERKSs
+.LEHE8:
+	leaq	-96(%rbp), %rax
+	leaq	-64(%rbp), %rdx
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+.LEHB9:
+	call	_Z8tokenizeSs
+.LEHE9:
+	leaq	-96(%rbp), %rdx
+	leaq	-160(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6vectorI5TokenSaIS0_EEaSEOS2_
+	leaq	-96(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6vectorI5TokenSaIS0_EED1Ev
+	leaq	-64(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSsD1Ev
+	leaq	-160(%rbp), %rdx
+	leaq	-48(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+.LEHB10:
+	call	_ZNSt6vectorI5TokenSaIS0_EEC1ERKS2_
+.LEHE10:
+	leaq	-48(%rbp), %rax
+	movq	%rax, %rdi
+.LEHB11:
+	call	_Z9buildListSt6vectorI5TokenSaIS0_EE
+.LEHE11:
+	movq	%rax, -24(%rbp)
+	leaq	-48(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6vectorI5TokenSaIS0_EED1Ev
+	movl	$.LC12, %esi
+	movl	$_ZSt4cout, %edi
+.LEHB12:
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movq	-24(%rbp), %rax
+	movl	$-1, %esi
+	movq	%rax, %rdi
+	call	_ZN4Node5printEi
+	movl	$.LC13, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$.LC14, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$.LC15, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$.LC16, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+.L66:
+	movzbl	-161(%rbp), %eax
+	cmpb	$113, %al
+	je	.L59
+	leaq	-161(%rbp), %rax
+	movq	%rax, %rsi
+	movl	$_ZSt3cin, %edi
+	call	_ZStrsIcSt11char_traitsIcEERSt13basic_istreamIT_T0_ES6_RS3_
+	movzbl	-161(%rbp), %eax
+	cmpb	$117, %al
+	jne	.L60
+	movl	$.LC17, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	leaq	-172(%rbp), %rax
+	movq	%rax, %rsi
+	movl	$_ZSt3cin, %edi
+	call	_ZNSirsERi
+	movq	-24(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZN4Node4sizeEv
+	movl	%eax, %edx
+	movl	-172(%rbp), %eax
+	cmpl	%eax, %edx
+	setge	%al
+	testb	%al, %al
+	je	.L61
+	movl	$.LC18, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	leaq	-168(%rbp), %rax
+	movq	%rax, %rsi
+	movl	$_ZSt3cin, %edi
+	call	_ZNSirsERi
+	movl	$.LC19, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	-168(%rbp), %edx
+	movl	-172(%rbp), %ecx
+	movq	-24(%rbp), %rax
+	movl	%ecx, %esi
+	movq	%rax, %rdi
+	call	_ZN4Node6updateEii
+	movq	-24(%rbp), %rax
+	movl	$-1, %esi
+	movq	%rax, %rdi
+	call	_ZN4Node5printEi
+	movl	$.LC20, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$.LC14, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$.LC15, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$.LC16, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	jmp	.L66
+.L61:
+	movl	$.LC21, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$.LC13, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$.LC14, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$.LC15, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$.LC16, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	jmp	.L66
+.L60:
+	movzbl	-161(%rbp), %eax
+	cmpb	$113, %al
+	jne	.L64
+	movl	$.LC22, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	jmp	.L59
+.L64:
+	movzbl	-161(%rbp), %eax
+	cmpb	$112, %al
+	jne	.L65
+	movl	$.LC23, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movq	%rax, %rdx
+	leaq	-128(%rbp), %rax
+	movq	%rax, %rsi
+	movq	%rdx, %rdi
+	call	_ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKSbIS4_S5_T1_E
+	movl	$_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_, %esi
+	movq	%rax, %rdi
+	call	_ZNSolsEPFRSoS_E
+	movl	$.LC13, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$.LC14, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$.LC15, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$.LC16, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	jmp	.L66
+.L65:
+	movl	$.LC24, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+.LEHE12:
+	movl	$1, %edi
+	call	exit
+.L59:
+	movl	$0, %ebx
+	leaq	-160(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6vectorI5TokenSaIS0_EED1Ev
+	leaq	-128(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSsD1Ev
+	leaq	-112(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSsD1Ev
+	movl	%ebx, %eax
+	jmp	.L78
+.L76:
+	movq	%rax, %rbx
+	leaq	-64(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSsD1Ev
+	jmp	.L69
+.L77:
+	movq	%rax, %rbx
+	leaq	-48(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6vectorI5TokenSaIS0_EED1Ev
+	jmp	.L69
+.L75:
+	movq	%rax, %rbx
+.L69:
+	leaq	-160(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6vectorI5TokenSaIS0_EED1Ev
+	jmp	.L71
+.L74:
+	movq	%rax, %rbx
+.L71:
+	leaq	-128(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSsD1Ev
+	jmp	.L72
+.L73:
+	movq	%rax, %rbx
+.L72:
+	leaq	-112(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSsD1Ev
+	movq	%rbx, %rax
+	movq	%rax, %rdi
+.LEHB13:
+	call	_Unwind_Resume
+.LEHE13:
+.L78:
+	addq	$168, %rsp
+	popq	%rbx
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE1996:
+	.section	.gcc_except_table
+.LLSDA1996:
+	.byte	0xff
+	.byte	0xff
+	.byte	0x1
+	.uleb128 .LLSDACSE1996-.LLSDACSB1996
+.LLSDACSB1996:
+	.uleb128 .LEHB5-.LFB1996
+	.uleb128 .LEHE5-.LEHB5
+	.uleb128 0
+	.uleb128 0
+	.uleb128 .LEHB6-.LFB1996
+	.uleb128 .LEHE6-.LEHB6
+	.uleb128 .L73-.LFB1996
+	.uleb128 0
+	.uleb128 .LEHB7-.LFB1996
+	.uleb128 .LEHE7-.LEHB7
+	.uleb128 .L74-.LFB1996
+	.uleb128 0
+	.uleb128 .LEHB8-.LFB1996
+	.uleb128 .LEHE8-.LEHB8
+	.uleb128 .L75-.LFB1996
+	.uleb128 0
+	.uleb128 .LEHB9-.LFB1996
+	.uleb128 .LEHE9-.LEHB9
+	.uleb128 .L76-.LFB1996
+	.uleb128 0
+	.uleb128 .LEHB10-.LFB1996
+	.uleb128 .LEHE10-.LEHB10
+	.uleb128 .L75-.LFB1996
+	.uleb128 0
+	.uleb128 .LEHB11-.LFB1996
+	.uleb128 .LEHE11-.LEHB11
+	.uleb128 .L77-.LFB1996
+	.uleb128 0
+	.uleb128 .LEHB12-.LFB1996
+	.uleb128 .LEHE12-.LEHB12
+	.uleb128 .L75-.LFB1996
+	.uleb128 0
+	.uleb128 .LEHB13-.LFB1996
+	.uleb128 .LEHE13-.LEHB13
+	.uleb128 0
+	.uleb128 0
+.LLSDACSE1996:
+	.text
+	.size	main, .-main
+	.section	.rodata
+.LC25:
+	.string	"Unexpected input! "
+.LC26:
+	.string	" Exiting!"
+	.text
+	.globl	_Z8tokenizeSs
+	.type	_Z8tokenizeSs, @function
+_Z8tokenizeSs:
+.LFB2000:
+	.cfi_startproc
+	.cfi_personality 0x3,__gxx_personality_v0
+	.cfi_lsda 0x3,.LLSDA2000
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$408, %rsp
+	.cfi_offset 3, -24
+	movq	%rdi, -408(%rbp)
+	movq	%rsi, -416(%rbp)
+	movl	$8, %esi
+	movl	$16, %edi
+	call	_ZStorSt13_Ios_OpenmodeS_
+	movl	%eax, %edx
+	leaq	-384(%rbp), %rax
+	movl	%edx, %esi
+	movq	%rax, %rdi
+.LEHB14:
+	call	_ZNSt18basic_stringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode
+.LEHE14:
+	movq	-416(%rbp), %rax
+	leaq	-384(%rbp), %rdx
+	addq	$16, %rdx
+	movq	%rax, %rsi
+	movq	%rdx, %rdi
+.LEHB15:
+	call	_ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKSbIS4_S5_T1_E
+.LEHE15:
+	movq	-408(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6vectorI5TokenSaIS0_EEC1Ev
+.L89:
+	leaq	-385(%rbp), %rdx
+	leaq	-384(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+.LEHB16:
+	call	_ZStrsIcSt11char_traitsIcEERSt13basic_istreamIT_T0_ES6_RS3_
+	movq	(%rax), %rdx
+	subq	$24, %rdx
+	movq	(%rdx), %rdx
+	addq	%rdx, %rax
+	movq	%rax, %rdi
+	call	_ZNKSt9basic_iosIcSt11char_traitsIcEEcvbEv
+	testb	%al, %al
+	je	.L97
+	movzbl	-385(%rbp), %eax
+	cmpb	$91, %al
+	jne	.L81
+	movl	$0, -400(%rbp)
+	jmp	.L82
+.L81:
+	movzbl	-385(%rbp), %eax
+	cmpb	$93, %al
+	jne	.L83
+	movl	$1, -400(%rbp)
+	jmp	.L82
+.L83:
+	movzbl	-385(%rbp), %eax
+	cmpb	$44, %al
+	jne	.L84
+	movl	$2, -400(%rbp)
+	jmp	.L82
+.L84:
+	movzbl	-385(%rbp), %eax
+	cmpb	$32, %al
+	je	.L98
+	movzbl	-385(%rbp), %eax
+	cmpb	$45, %al
+	je	.L87
+	movzbl	-385(%rbp), %eax
+	movsbl	%al, %eax
+	subl	$48, %eax
+	cmpl	$9, %eax
+	ja	.L88
+.L87:
+	movl	$3, -400(%rbp)
+	movzbl	-385(%rbp), %eax
+	movsbl	%al, %edx
+	leaq	-384(%rbp), %rax
+	movl	%edx, %esi
+	movq	%rax, %rdi
+	call	_ZNSi7putbackEc
+	leaq	-392(%rbp), %rdx
+	leaq	-384(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSirsERi
+	movl	-392(%rbp), %eax
+	movl	%eax, -396(%rbp)
+	jmp	.L82
+.L88:
+	movzbl	-385(%rbp), %eax
+	movsbl	%al, %ebx
+	movl	$.LC25, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	%ebx, %esi
+	movq	%rax, %rdi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c
+	movl	$.LC26, %esi
+	movq	%rax, %rdi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$1, %edi
+	call	exit
+.L82:
+	leaq	-400(%rbp), %rdx
+	movq	-408(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6vectorI5TokenSaIS0_EE9push_backERKS0_
+.LEHE16:
+	jmp	.L89
+.L98:
+	nop
+	jmp	.L89
+.L97:
+	nop
+	leaq	-384(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt18basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev
+	jmp	.L96
+.L94:
+	movq	%rax, %rbx
+	movq	-408(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6vectorI5TokenSaIS0_EED1Ev
+	jmp	.L92
+.L93:
+	movq	%rax, %rbx
+.L92:
+	leaq	-384(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt18basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev
+	movq	%rbx, %rax
+	movq	%rax, %rdi
+.LEHB17:
+	call	_Unwind_Resume
+.LEHE17:
+.L96:
+	movq	-408(%rbp), %rax
+	addq	$408, %rsp
+	popq	%rbx
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2000:
+	.section	.gcc_except_table
+.LLSDA2000:
+	.byte	0xff
+	.byte	0xff
+	.byte	0x1
+	.uleb128 .LLSDACSE2000-.LLSDACSB2000
+.LLSDACSB2000:
+	.uleb128 .LEHB14-.LFB2000
+	.uleb128 .LEHE14-.LEHB14
+	.uleb128 0
+	.uleb128 0
+	.uleb128 .LEHB15-.LFB2000
+	.uleb128 .LEHE15-.LEHB15
+	.uleb128 .L93-.LFB2000
+	.uleb128 0
+	.uleb128 .LEHB16-.LFB2000
+	.uleb128 .LEHE16-.LEHB16
+	.uleb128 .L94-.LFB2000
+	.uleb128 0
+	.uleb128 .LEHB17-.LFB2000
+	.uleb128 .LEHE17-.LEHB17
+	.uleb128 0
+	.uleb128 0
+.LLSDACSE2000:
+	.text
+	.size	_Z8tokenizeSs, .-_Z8tokenizeSs
+	.section	.rodata
+.LC27:
+	.string	"Unexpected token type!\n"
+	.text
+	.globl	_Z9buildListSt6vectorI5TokenSaIS0_EE
+	.type	_Z9buildListSt6vectorI5TokenSaIS0_EE, @function
+_Z9buildListSt6vectorI5TokenSaIS0_EE:
+.LFB2001:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%r12
+	pushq	%rbx
+	subq	$8128, %rsp
+	.cfi_offset 12, -24
+	.cfi_offset 3, -32
+	movq	%rdi, -8136(%rbp)
+	leaq	-8080(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZN5StackC1Ev
+	movq	-8136(%rbp), %rax
+	movq	%rax, -32(%rbp)
+	movq	-32(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6vectorI5TokenSaIS0_EE5beginEv
+	movq	%rax, -8112(%rbp)
+	movq	-32(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6vectorI5TokenSaIS0_EE3endEv
+	movq	%rax, -8128(%rbp)
+.L107:
+	leaq	-8128(%rbp), %rdx
+	leaq	-8112(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZN9__gnu_cxxneIP5TokenSt6vectorIS1_SaIS1_EEEEbRKNS_17__normal_iteratorIT_T0_EESB_
+	testb	%al, %al
+	je	.L100
+	leaq	-8112(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNK9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEdeEv
+	movq	(%rax), %rax
+	movq	%rax, -8096(%rbp)
+	movl	-8096(%rbp), %eax
+	testl	%eax, %eax
+	jne	.L101
+	movl	$24, %edi
+	call	_Znwm
+	movq	%rax, %rbx
+	movl	$0, %edx
+	movl	$0, %esi
+	movq	%rbx, %rdi
+	call	_ZN4NodeC1EPS_S0_
+	movq	%rbx, -40(%rbp)
+	movq	-40(%rbp), %rdx
+	leaq	-8080(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZN5Stack4PushEP4Node
+	jmp	.L102
+.L101:
+	movl	-8096(%rbp), %eax
+	cmpl	$3, %eax
+	jne	.L103
+	movl	$24, %edi
+	call	_Znwm
+	movq	%rax, %rbx
+	movl	-8092(%rbp), %eax
+	movl	%eax, %esi
+	movq	%rbx, %rdi
+	call	_ZN4NodeC1Ei
+	movq	%rbx, %r12
+	movl	$24, %edi
+	call	_Znwm
+	movq	%rax, %rbx
+	movl	$0, %edx
+	movq	%r12, %rsi
+	movq	%rbx, %rdi
+	call	_ZN4NodeC1EPS_S0_
+	movq	%rbx, -48(%rbp)
+	movq	-48(%rbp), %rdx
+	leaq	-8080(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZN5Stack4PushEP4Node
+	jmp	.L102
+.L103:
+	movl	-8096(%rbp), %eax
+	cmpl	$2, %eax
+	je	.L102
+	movl	-8096(%rbp), %eax
+	cmpl	$1, %eax
+	jne	.L104
+	leaq	-8080(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZN5Stack3PopEv
+	movq	%rax, -24(%rbp)
+.L106:
+	leaq	-8080(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZN5Stack3TopEv
+	movq	%rax, %rdi
+	call	_ZN4Node4sizeEv
+	testl	%eax, %eax
+	setne	%al
+	testb	%al, %al
+	je	.L105
+	leaq	-8080(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZN5Stack3PopEv
+	movq	%rax, -56(%rbp)
+	movq	-24(%rbp), %rdx
+	movq	-56(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZN4Node7setNextEPS_
+	movq	-56(%rbp), %rax
+	movq	%rax, -24(%rbp)
+	jmp	.L106
+.L105:
+	leaq	-8080(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZN5Stack3PopEv
+	movq	%rax, -64(%rbp)
+	movq	-24(%rbp), %rdx
+	movq	-64(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZN4Node7setDownEPS_
+	movq	-64(%rbp), %rdx
+	leaq	-8080(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZN5Stack4PushEP4Node
+	jmp	.L102
+.L104:
+	movl	$.LC27, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$1, %edi
+	call	exit
+.L102:
+	leaq	-8112(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZN9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEppEv
+	jmp	.L107
+.L100:
+	leaq	-8080(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZN5Stack3PopEv
+	addq	$8128, %rsp
+	popq	%rbx
+	popq	%r12
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2001:
+	.size	_Z9buildListSt6vectorI5TokenSaIS0_EE, .-_Z9buildListSt6vectorI5TokenSaIS0_EE
+	.section	.text._ZNSt6vectorI5TokenSaIS0_EEC2Ev,"axG",@progbits,_ZNSt6vectorI5TokenSaIS0_EEC5Ev,comdat
+	.align 2
+	.weak	_ZNSt6vectorI5TokenSaIS0_EEC2Ev
+	.type	_ZNSt6vectorI5TokenSaIS0_EEC2Ev, @function
+_ZNSt6vectorI5TokenSaIS0_EEC2Ev:
+.LFB2079:
+	.cfi_startproc
+	.cfi_personality 0x3,__gxx_personality_v0
+	.cfi_lsda 0x3,.LLSDA2079
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EEC2Ev
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2079:
+	.section	.gcc_except_table
+.LLSDA2079:
+	.byte	0xff
+	.byte	0xff
+	.byte	0x1
+	.uleb128 .LLSDACSE2079-.LLSDACSB2079
+.LLSDACSB2079:
+.LLSDACSE2079:
+	.section	.text._ZNSt6vectorI5TokenSaIS0_EEC2Ev,"axG",@progbits,_ZNSt6vectorI5TokenSaIS0_EEC5Ev,comdat
+	.size	_ZNSt6vectorI5TokenSaIS0_EEC2Ev, .-_ZNSt6vectorI5TokenSaIS0_EEC2Ev
+	.weak	_ZNSt6vectorI5TokenSaIS0_EEC1Ev
+	.set	_ZNSt6vectorI5TokenSaIS0_EEC1Ev,_ZNSt6vectorI5TokenSaIS0_EEC2Ev
+	.section	.text._ZNSt6vectorI5TokenSaIS0_EED2Ev,"axG",@progbits,_ZNSt6vectorI5TokenSaIS0_EED5Ev,comdat
+	.align 2
+	.weak	_ZNSt6vectorI5TokenSaIS0_EED2Ev
+	.type	_ZNSt6vectorI5TokenSaIS0_EED2Ev, @function
+_ZNSt6vectorI5TokenSaIS0_EED2Ev:
+.LFB2082:
+	.cfi_startproc
+	.cfi_personality 0x3,__gxx_personality_v0
+	.cfi_lsda 0x3,.LLSDA2082
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv
+	movq	%rax, %rdx
+	movq	-8(%rbp), %rax
+	movq	8(%rax), %rcx
+	movq	-8(%rbp), %rax
+	movq	(%rax), %rax
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	_ZSt8_DestroyIP5TokenS0_EvT_S2_RSaIT0_E
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EED2Ev
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2082:
+	.section	.gcc_except_table
+.LLSDA2082:
+	.byte	0xff
+	.byte	0xff
+	.byte	0x1
+	.uleb128 .LLSDACSE2082-.LLSDACSB2082
+.LLSDACSB2082:
+.LLSDACSE2082:
+	.section	.text._ZNSt6vectorI5TokenSaIS0_EED2Ev,"axG",@progbits,_ZNSt6vectorI5TokenSaIS0_EED5Ev,comdat
+	.size	_ZNSt6vectorI5TokenSaIS0_EED2Ev, .-_ZNSt6vectorI5TokenSaIS0_EED2Ev
+	.weak	_ZNSt6vectorI5TokenSaIS0_EED1Ev
+	.set	_ZNSt6vectorI5TokenSaIS0_EED1Ev,_ZNSt6vectorI5TokenSaIS0_EED2Ev
+	.section	.text._ZSt4moveIRSt6vectorI5TokenSaIS1_EEEONSt16remove_referenceIT_E4typeEOS6_,"axG",@progbits,_ZSt4moveIRSt6vectorI5TokenSaIS1_EEEONSt16remove_referenceIT_E4typeEOS6_,comdat
+	.weak	_ZSt4moveIRSt6vectorI5TokenSaIS1_EEEONSt16remove_referenceIT_E4typeEOS6_
+	.type	_ZSt4moveIRSt6vectorI5TokenSaIS1_EEEONSt16remove_referenceIT_E4typeEOS6_, @function
+_ZSt4moveIRSt6vectorI5TokenSaIS1_EEEONSt16remove_referenceIT_E4typeEOS6_:
+.LFB2085:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2085:
+	.size	_ZSt4moveIRSt6vectorI5TokenSaIS1_EEEONSt16remove_referenceIT_E4typeEOS6_, .-_ZSt4moveIRSt6vectorI5TokenSaIS1_EEEONSt16remove_referenceIT_E4typeEOS6_
+	.section	.text._ZNSt6vectorI5TokenSaIS0_EEaSEOS2_,"axG",@progbits,_ZNSt6vectorI5TokenSaIS0_EEaSEOS2_,comdat
+	.align 2
+	.weak	_ZNSt6vectorI5TokenSaIS0_EEaSEOS2_
+	.type	_ZNSt6vectorI5TokenSaIS0_EEaSEOS2_, @function
+_ZNSt6vectorI5TokenSaIS0_EEaSEOS2_:
+.LFB2084:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$40, %rsp
+	.cfi_offset 3, -24
+	movq	%rdi, -40(%rbp)
+	movq	%rsi, -48(%rbp)
+	movb	$1, -17(%rbp)
+	movq	-48(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt4moveIRSt6vectorI5TokenSaIS1_EEEONSt16remove_referenceIT_E4typeEOS6_
+	movq	%rax, %rdx
+	movq	-40(%rbp), %rax
+	subq	$8, %rsp
+	pushq	%rbx
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6vectorI5TokenSaIS0_EE14_M_move_assignEOS2_St17integral_constantIbLb1EE
+	addq	$16, %rsp
+	movq	-40(%rbp), %rax
+	movq	-8(%rbp), %rbx
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2084:
+	.size	_ZNSt6vectorI5TokenSaIS0_EEaSEOS2_, .-_ZNSt6vectorI5TokenSaIS0_EEaSEOS2_
+	.section	.text._ZNSt6vectorI5TokenSaIS0_EEC2ERKS2_,"axG",@progbits,_ZNSt6vectorI5TokenSaIS0_EEC5ERKS2_,comdat
+	.align 2
+	.weak	_ZNSt6vectorI5TokenSaIS0_EEC2ERKS2_
+	.type	_ZNSt6vectorI5TokenSaIS0_EEC2ERKS2_, @function
+_ZNSt6vectorI5TokenSaIS0_EEC2ERKS2_:
+.LFB2087:
+	.cfi_startproc
+	.cfi_personality 0x3,__gxx_personality_v0
+	.cfi_lsda 0x3,.LLSDA2087
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%r13
+	pushq	%r12
+	pushq	%rbx
+	subq	$40, %rsp
+	.cfi_offset 13, -24
+	.cfi_offset 12, -32
+	.cfi_offset 3, -40
+	movq	%rdi, -56(%rbp)
+	movq	%rsi, -64(%rbp)
+	movq	-64(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv
+	movq	%rax, %rdx
+	leaq	-33(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+.LEHB18:
+	call	_ZN9__gnu_cxx14__alloc_traitsISaI5TokenEE17_S_select_on_copyERKS2_
+.LEHE18:
+	movq	-64(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6vectorI5TokenSaIS0_EE4sizeEv
+	movq	%rax, %rcx
+	movq	-56(%rbp), %rax
+	leaq	-33(%rbp), %rdx
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+.LEHB19:
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EEC2EmRKS1_
+.LEHE19:
+	leaq	-33(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSaI5TokenED1Ev
+	movq	-56(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv
+	movq	%rax, %r13
+	movq	-56(%rbp), %rax
+	movq	(%rax), %rbx
+	movq	-64(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6vectorI5TokenSaIS0_EE3endEv
+	movq	%rax, %r12
+	movq	-64(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6vectorI5TokenSaIS0_EE5beginEv
+	movq	%r13, %rcx
+	movq	%rbx, %rdx
+	movq	%r12, %rsi
+	movq	%rax, %rdi
+.LEHB20:
+	call	_ZSt22__uninitialized_copy_aIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_S2_ET0_T_SB_SA_RSaIT1_E
+.LEHE20:
+	movq	%rax, %rdx
+	movq	-56(%rbp), %rax
+	movq	%rdx, 8(%rax)
+	jmp	.L120
+.L118:
+	movq	%rax, %rbx
+	leaq	-33(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSaI5TokenED1Ev
+	movq	%rbx, %rax
+	movq	%rax, %rdi
+.LEHB21:
+	call	_Unwind_Resume
+.L119:
+	movq	%rax, %rbx
+	movq	-56(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EED2Ev
+	movq	%rbx, %rax
+	movq	%rax, %rdi
+	call	_Unwind_Resume
+.LEHE21:
+.L120:
+	addq	$40, %rsp
+	popq	%rbx
+	popq	%r12
+	popq	%r13
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2087:
+	.section	.gcc_except_table
+.LLSDA2087:
+	.byte	0xff
+	.byte	0xff
+	.byte	0x1
+	.uleb128 .LLSDACSE2087-.LLSDACSB2087
+.LLSDACSB2087:
+	.uleb128 .LEHB18-.LFB2087
+	.uleb128 .LEHE18-.LEHB18
+	.uleb128 0
+	.uleb128 0
+	.uleb128 .LEHB19-.LFB2087
+	.uleb128 .LEHE19-.LEHB19
+	.uleb128 .L118-.LFB2087
+	.uleb128 0
+	.uleb128 .LEHB20-.LFB2087
+	.uleb128 .LEHE20-.LEHB20
+	.uleb128 .L119-.LFB2087
+	.uleb128 0
+	.uleb128 .LEHB21-.LFB2087
+	.uleb128 .LEHE21-.LEHB21
+	.uleb128 0
+	.uleb128 0
+.LLSDACSE2087:
+	.section	.text._ZNSt6vectorI5TokenSaIS0_EEC2ERKS2_,"axG",@progbits,_ZNSt6vectorI5TokenSaIS0_EEC5ERKS2_,comdat
+	.size	_ZNSt6vectorI5TokenSaIS0_EEC2ERKS2_, .-_ZNSt6vectorI5TokenSaIS0_EEC2ERKS2_
+	.weak	_ZNSt6vectorI5TokenSaIS0_EEC1ERKS2_
+	.set	_ZNSt6vectorI5TokenSaIS0_EEC1ERKS2_,_ZNSt6vectorI5TokenSaIS0_EEC2ERKS2_
+	.section	.text._ZNSt6vectorI5TokenSaIS0_EE9push_backERKS0_,"axG",@progbits,_ZNSt6vectorI5TokenSaIS0_EE9push_backERKS0_,comdat
+	.align 2
+	.weak	_ZNSt6vectorI5TokenSaIS0_EE9push_backERKS0_
+	.type	_ZNSt6vectorI5TokenSaIS0_EE9push_backERKS0_, @function
+_ZNSt6vectorI5TokenSaIS0_EE9push_backERKS0_:
+.LFB2103:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-8(%rbp), %rax
+	movq	8(%rax), %rdx
+	movq	-8(%rbp), %rax
+	movq	16(%rax), %rax
+	cmpq	%rax, %rdx
+	je	.L122
+	movq	-8(%rbp), %rax
+	movq	8(%rax), %rcx
+	movq	-8(%rbp), %rax
+	movq	-16(%rbp), %rdx
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt16allocator_traitsISaI5TokenEE9constructIS0_JRKS0_EEEvRS1_PT_DpOT0_
+	movq	-8(%rbp), %rax
+	movq	8(%rax), %rax
+	leaq	8(%rax), %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, 8(%rax)
+	jmp	.L124
+.L122:
+	movq	-16(%rbp), %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6vectorI5TokenSaIS0_EE19_M_emplace_back_auxIJRKS0_EEEvDpOT_
+.L124:
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2103:
+	.size	_ZNSt6vectorI5TokenSaIS0_EE9push_backERKS0_, .-_ZNSt6vectorI5TokenSaIS0_EE9push_backERKS0_
+	.section	.text._ZNSt6vectorI5TokenSaIS0_EE5beginEv,"axG",@progbits,_ZNSt6vectorI5TokenSaIS0_EE5beginEv,comdat
+	.align 2
+	.weak	_ZNSt6vectorI5TokenSaIS0_EE5beginEv
+	.type	_ZNSt6vectorI5TokenSaIS0_EE5beginEv, @function
+_ZNSt6vectorI5TokenSaIS0_EE5beginEv:
+.LFB2107:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -24(%rbp)
+	movq	-24(%rbp), %rdx
+	leaq	-16(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZN9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEC1ERKS2_
+	movq	-16(%rbp), %rax
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2107:
+	.size	_ZNSt6vectorI5TokenSaIS0_EE5beginEv, .-_ZNSt6vectorI5TokenSaIS0_EE5beginEv
+	.section	.text._ZNSt6vectorI5TokenSaIS0_EE3endEv,"axG",@progbits,_ZNSt6vectorI5TokenSaIS0_EE3endEv,comdat
+	.align 2
+	.weak	_ZNSt6vectorI5TokenSaIS0_EE3endEv
+	.type	_ZNSt6vectorI5TokenSaIS0_EE3endEv, @function
+_ZNSt6vectorI5TokenSaIS0_EE3endEv:
+.LFB2108:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -24(%rbp)
+	movq	-24(%rbp), %rax
+	leaq	8(%rax), %rdx
+	leaq	-16(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZN9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEC1ERKS2_
+	movq	-16(%rbp), %rax
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2108:
+	.size	_ZNSt6vectorI5TokenSaIS0_EE3endEv, .-_ZNSt6vectorI5TokenSaIS0_EE3endEv
+	.section	.text._ZN9__gnu_cxxneIP5TokenSt6vectorIS1_SaIS1_EEEEbRKNS_17__normal_iteratorIT_T0_EESB_,"axG",@progbits,_ZN9__gnu_cxxneIP5TokenSt6vectorIS1_SaIS1_EEEEbRKNS_17__normal_iteratorIT_T0_EESB_,comdat
+	.weak	_ZN9__gnu_cxxneIP5TokenSt6vectorIS1_SaIS1_EEEEbRKNS_17__normal_iteratorIT_T0_EESB_
+	.type	_ZN9__gnu_cxxneIP5TokenSt6vectorIS1_SaIS1_EEEEbRKNS_17__normal_iteratorIT_T0_EESB_, @function
+_ZN9__gnu_cxxneIP5TokenSt6vectorIS1_SaIS1_EEEEbRKNS_17__normal_iteratorIT_T0_EESB_:
+.LFB2109:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$24, %rsp
+	.cfi_offset 3, -24
+	movq	%rdi, -24(%rbp)
+	movq	%rsi, -32(%rbp)
+	movq	-24(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNK9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEE4baseEv
+	movq	(%rax), %rbx
+	movq	-32(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNK9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEE4baseEv
+	movq	(%rax), %rax
+	cmpq	%rax, %rbx
+	setne	%al
+	addq	$24, %rsp
+	popq	%rbx
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2109:
+	.size	_ZN9__gnu_cxxneIP5TokenSt6vectorIS1_SaIS1_EEEEbRKNS_17__normal_iteratorIT_T0_EESB_, .-_ZN9__gnu_cxxneIP5TokenSt6vectorIS1_SaIS1_EEEEbRKNS_17__normal_iteratorIT_T0_EESB_
+	.section	.text._ZN9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEppEv,"axG",@progbits,_ZN9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEppEv,comdat
+	.align 2
+	.weak	_ZN9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEppEv
+	.type	_ZN9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEppEv, @function
+_ZN9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEppEv:
+.LFB2110:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	(%rax), %rax
+	leaq	8(%rax), %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, (%rax)
+	movq	-8(%rbp), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2110:
+	.size	_ZN9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEppEv, .-_ZN9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEppEv
+	.section	.text._ZNK9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEdeEv,"axG",@progbits,_ZNK9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEdeEv,comdat
+	.align 2
+	.weak	_ZNK9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEdeEv
+	.type	_ZNK9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEdeEv, @function
+_ZNK9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEdeEv:
+.LFB2111:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	(%rax), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2111:
+	.size	_ZNK9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEdeEv, .-_ZNK9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEdeEv
+	.section	.text._ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implD2Ev,"axG",@progbits,_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implD5Ev,comdat
+	.align 2
+	.weak	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implD2Ev
+	.type	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implD2Ev, @function
+_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implD2Ev:
+.LFB2169:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSaI5TokenED2Ev
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2169:
+	.size	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implD2Ev, .-_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implD2Ev
+	.weak	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implD1Ev
+	.set	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implD1Ev,_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implD2Ev
+	.section	.text._ZNSt12_Vector_baseI5TokenSaIS0_EEC2Ev,"axG",@progbits,_ZNSt12_Vector_baseI5TokenSaIS0_EEC5Ev,comdat
+	.align 2
+	.weak	_ZNSt12_Vector_baseI5TokenSaIS0_EEC2Ev
+	.type	_ZNSt12_Vector_baseI5TokenSaIS0_EEC2Ev, @function
+_ZNSt12_Vector_baseI5TokenSaIS0_EEC2Ev:
+.LFB2171:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC1Ev
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2171:
+	.size	_ZNSt12_Vector_baseI5TokenSaIS0_EEC2Ev, .-_ZNSt12_Vector_baseI5TokenSaIS0_EEC2Ev
+	.weak	_ZNSt12_Vector_baseI5TokenSaIS0_EEC1Ev
+	.set	_ZNSt12_Vector_baseI5TokenSaIS0_EEC1Ev,_ZNSt12_Vector_baseI5TokenSaIS0_EEC2Ev
+	.section	.text._ZNSt12_Vector_baseI5TokenSaIS0_EED2Ev,"axG",@progbits,_ZNSt12_Vector_baseI5TokenSaIS0_EED5Ev,comdat
+	.align 2
+	.weak	_ZNSt12_Vector_baseI5TokenSaIS0_EED2Ev
+	.type	_ZNSt12_Vector_baseI5TokenSaIS0_EED2Ev, @function
+_ZNSt12_Vector_baseI5TokenSaIS0_EED2Ev:
+.LFB2174:
+	.cfi_startproc
+	.cfi_personality 0x3,__gxx_personality_v0
+	.cfi_lsda 0x3,.LLSDA2174
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	16(%rax), %rax
+	movq	%rax, %rdx
+	movq	-8(%rbp), %rax
+	movq	(%rax), %rax
+	subq	%rax, %rdx
+	movq	%rdx, %rax
+	sarq	$3, %rax
+	movq	%rax, %rdx
+	movq	-8(%rbp), %rax
+	movq	(%rax), %rcx
+	movq	-8(%rbp), %rax
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EE13_M_deallocateEPS0_m
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implD1Ev
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2174:
+	.section	.gcc_except_table
+.LLSDA2174:
+	.byte	0xff
+	.byte	0xff
+	.byte	0x1
+	.uleb128 .LLSDACSE2174-.LLSDACSB2174
+.LLSDACSB2174:
+.LLSDACSE2174:
+	.section	.text._ZNSt12_Vector_baseI5TokenSaIS0_EED2Ev,"axG",@progbits,_ZNSt12_Vector_baseI5TokenSaIS0_EED5Ev,comdat
+	.size	_ZNSt12_Vector_baseI5TokenSaIS0_EED2Ev, .-_ZNSt12_Vector_baseI5TokenSaIS0_EED2Ev
+	.weak	_ZNSt12_Vector_baseI5TokenSaIS0_EED1Ev
+	.set	_ZNSt12_Vector_baseI5TokenSaIS0_EED1Ev,_ZNSt12_Vector_baseI5TokenSaIS0_EED2Ev
+	.section	.text._ZNSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv,"axG",@progbits,_ZNSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv,comdat
+	.align 2
+	.weak	_ZNSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv
+	.type	_ZNSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv, @function
+_ZNSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv:
+.LFB2176:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2176:
+	.size	_ZNSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv, .-_ZNSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv
+	.section	.text._ZSt8_DestroyIP5TokenS0_EvT_S2_RSaIT0_E,"axG",@progbits,_ZSt8_DestroyIP5TokenS0_EvT_S2_RSaIT0_E,comdat
+	.weak	_ZSt8_DestroyIP5TokenS0_EvT_S2_RSaIT0_E
+	.type	_ZSt8_DestroyIP5TokenS0_EvT_S2_RSaIT0_E, @function
+_ZSt8_DestroyIP5TokenS0_EvT_S2_RSaIT0_E:
+.LFB2177:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	%rdx, -24(%rbp)
+	movq	-16(%rbp), %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZSt8_DestroyIP5TokenEvT_S2_
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2177:
+	.size	_ZSt8_DestroyIP5TokenS0_EvT_S2_RSaIT0_E, .-_ZSt8_DestroyIP5TokenS0_EvT_S2_RSaIT0_E
+	.section	.text._ZNSt6vectorI5TokenSaIS0_EE14_M_move_assignEOS2_St17integral_constantIbLb1EE,"axG",@progbits,_ZNSt6vectorI5TokenSaIS0_EE14_M_move_assignEOS2_St17integral_constantIbLb1EE,comdat
+	.align 2
+	.weak	_ZNSt6vectorI5TokenSaIS0_EE14_M_move_assignEOS2_St17integral_constantIbLb1EE
+	.type	_ZNSt6vectorI5TokenSaIS0_EE14_M_move_assignEOS2_St17integral_constantIbLb1EE, @function
+_ZNSt6vectorI5TokenSaIS0_EE14_M_move_assignEOS2_St17integral_constantIbLb1EE:
+.LFB2178:
+	.cfi_startproc
+	.cfi_personality 0x3,__gxx_personality_v0
+	.cfi_lsda 0x3,.LLSDA2178
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$56, %rsp
+	.cfi_offset 3, -24
+	movq	%rdi, -56(%rbp)
+	movq	%rsi, -64(%rbp)
+	movq	-56(%rbp), %rdx
+	leaq	-17(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNKSt12_Vector_baseI5TokenSaIS0_EE13get_allocatorEv
+	leaq	-17(%rbp), %rdx
+	leaq	-48(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6vectorI5TokenSaIS0_EEC1ERKS1_
+	leaq	-17(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSaI5TokenED1Ev
+	movq	-56(%rbp), %rax
+	leaq	-48(%rbp), %rdx
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_impl12_M_swap_dataERS3_
+	movq	-64(%rbp), %rdx
+	movq	-56(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_impl12_M_swap_dataERS3_
+	movq	-64(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv
+	movq	%rax, %rbx
+	movq	-56(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv
+	movq	%rbx, %rsi
+	movq	%rax, %rdi
+	call	_ZSt15__alloc_on_moveISaI5TokenEEvRT_S3_
+	leaq	-48(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6vectorI5TokenSaIS0_EED1Ev
+	nop
+	addq	$56, %rsp
+	popq	%rbx
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2178:
+	.section	.gcc_except_table
+.LLSDA2178:
+	.byte	0xff
+	.byte	0xff
+	.byte	0x1
+	.uleb128 .LLSDACSE2178-.LLSDACSB2178
+.LLSDACSB2178:
+.LLSDACSE2178:
+	.section	.text._ZNSt6vectorI5TokenSaIS0_EE14_M_move_assignEOS2_St17integral_constantIbLb1EE,"axG",@progbits,_ZNSt6vectorI5TokenSaIS0_EE14_M_move_assignEOS2_St17integral_constantIbLb1EE,comdat
+	.size	_ZNSt6vectorI5TokenSaIS0_EE14_M_move_assignEOS2_St17integral_constantIbLb1EE, .-_ZNSt6vectorI5TokenSaIS0_EE14_M_move_assignEOS2_St17integral_constantIbLb1EE
+	.section	.text._ZNKSt6vectorI5TokenSaIS0_EE4sizeEv,"axG",@progbits,_ZNKSt6vectorI5TokenSaIS0_EE4sizeEv,comdat
+	.align 2
+	.weak	_ZNKSt6vectorI5TokenSaIS0_EE4sizeEv
+	.type	_ZNKSt6vectorI5TokenSaIS0_EE4sizeEv, @function
+_ZNKSt6vectorI5TokenSaIS0_EE4sizeEv:
+.LFB2179:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	8(%rax), %rax
+	movq	%rax, %rdx
+	movq	-8(%rbp), %rax
+	movq	(%rax), %rax
+	subq	%rax, %rdx
+	movq	%rdx, %rax
+	sarq	$3, %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2179:
+	.size	_ZNKSt6vectorI5TokenSaIS0_EE4sizeEv, .-_ZNKSt6vectorI5TokenSaIS0_EE4sizeEv
+	.section	.text._ZN9__gnu_cxx14__alloc_traitsISaI5TokenEE17_S_select_on_copyERKS2_,"axG",@progbits,_ZN9__gnu_cxx14__alloc_traitsISaI5TokenEE17_S_select_on_copyERKS2_,comdat
+	.weak	_ZN9__gnu_cxx14__alloc_traitsISaI5TokenEE17_S_select_on_copyERKS2_
+	.type	_ZN9__gnu_cxx14__alloc_traitsISaI5TokenEE17_S_select_on_copyERKS2_, @function
+_ZN9__gnu_cxx14__alloc_traitsISaI5TokenEE17_S_select_on_copyERKS2_:
+.LFB2180:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-8(%rbp), %rax
+	movq	-16(%rbp), %rdx
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt16allocator_traitsISaI5TokenEE37select_on_container_copy_constructionERKS1_
+	movq	-8(%rbp), %rax
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2180:
+	.size	_ZN9__gnu_cxx14__alloc_traitsISaI5TokenEE17_S_select_on_copyERKS2_, .-_ZN9__gnu_cxx14__alloc_traitsISaI5TokenEE17_S_select_on_copyERKS2_
+	.section	.text._ZNKSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv,"axG",@progbits,_ZNKSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv,comdat
+	.align 2
+	.weak	_ZNKSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv
+	.type	_ZNKSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv, @function
+_ZNKSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv:
+.LFB2181:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2181:
+	.size	_ZNKSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv, .-_ZNKSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv
+	.section	.text._ZNSaI5TokenED2Ev,"axG",@progbits,_ZNSaI5TokenED5Ev,comdat
+	.align 2
+	.weak	_ZNSaI5TokenED2Ev
+	.type	_ZNSaI5TokenED2Ev, @function
+_ZNSaI5TokenED2Ev:
+.LFB2183:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZN9__gnu_cxx13new_allocatorI5TokenED2Ev
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2183:
+	.size	_ZNSaI5TokenED2Ev, .-_ZNSaI5TokenED2Ev
+	.weak	_ZNSaI5TokenED1Ev
+	.set	_ZNSaI5TokenED1Ev,_ZNSaI5TokenED2Ev
+	.section	.text._ZNSt12_Vector_baseI5TokenSaIS0_EEC2EmRKS1_,"axG",@progbits,_ZNSt12_Vector_baseI5TokenSaIS0_EEC5EmRKS1_,comdat
+	.align 2
+	.weak	_ZNSt12_Vector_baseI5TokenSaIS0_EEC2EmRKS1_
+	.type	_ZNSt12_Vector_baseI5TokenSaIS0_EEC2EmRKS1_, @function
+_ZNSt12_Vector_baseI5TokenSaIS0_EEC2EmRKS1_:
+.LFB2186:
+	.cfi_startproc
+	.cfi_personality 0x3,__gxx_personality_v0
+	.cfi_lsda 0x3,.LLSDA2186
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$40, %rsp
+	.cfi_offset 3, -24
+	movq	%rdi, -24(%rbp)
+	movq	%rsi, -32(%rbp)
+	movq	%rdx, -40(%rbp)
+	movq	-24(%rbp), %rax
+	movq	-40(%rbp), %rdx
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC1ERKS1_
+	movq	-32(%rbp), %rdx
+	movq	-24(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+.LEHB22:
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EE17_M_create_storageEm
+.LEHE22:
+	jmp	.L152
+.L151:
+	movq	%rax, %rbx
+	movq	-24(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implD1Ev
+	movq	%rbx, %rax
+	movq	%rax, %rdi
+.LEHB23:
+	call	_Unwind_Resume
+.LEHE23:
+.L152:
+	addq	$40, %rsp
+	popq	%rbx
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2186:
+	.section	.gcc_except_table
+.LLSDA2186:
+	.byte	0xff
+	.byte	0xff
+	.byte	0x1
+	.uleb128 .LLSDACSE2186-.LLSDACSB2186
+.LLSDACSB2186:
+	.uleb128 .LEHB22-.LFB2186
+	.uleb128 .LEHE22-.LEHB22
+	.uleb128 .L151-.LFB2186
+	.uleb128 0
+	.uleb128 .LEHB23-.LFB2186
+	.uleb128 .LEHE23-.LEHB23
+	.uleb128 0
+	.uleb128 0
+.LLSDACSE2186:
+	.section	.text._ZNSt12_Vector_baseI5TokenSaIS0_EEC2EmRKS1_,"axG",@progbits,_ZNSt12_Vector_baseI5TokenSaIS0_EEC5EmRKS1_,comdat
+	.size	_ZNSt12_Vector_baseI5TokenSaIS0_EEC2EmRKS1_, .-_ZNSt12_Vector_baseI5TokenSaIS0_EEC2EmRKS1_
+	.weak	_ZNSt12_Vector_baseI5TokenSaIS0_EEC1EmRKS1_
+	.set	_ZNSt12_Vector_baseI5TokenSaIS0_EEC1EmRKS1_,_ZNSt12_Vector_baseI5TokenSaIS0_EEC2EmRKS1_
+	.section	.text._ZNKSt6vectorI5TokenSaIS0_EE5beginEv,"axG",@progbits,_ZNKSt6vectorI5TokenSaIS0_EE5beginEv,comdat
+	.align 2
+	.weak	_ZNKSt6vectorI5TokenSaIS0_EE5beginEv
+	.type	_ZNKSt6vectorI5TokenSaIS0_EE5beginEv, @function
+_ZNKSt6vectorI5TokenSaIS0_EE5beginEv:
+.LFB2188:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -24(%rbp)
+	movq	-24(%rbp), %rax
+	movq	(%rax), %rax
+	movq	%rax, -8(%rbp)
+	leaq	-8(%rbp), %rdx
+	leaq	-16(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS1_SaIS1_EEEC1ERKS3_
+	movq	-16(%rbp), %rax
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2188:
+	.size	_ZNKSt6vectorI5TokenSaIS0_EE5beginEv, .-_ZNKSt6vectorI5TokenSaIS0_EE5beginEv
+	.section	.text._ZNKSt6vectorI5TokenSaIS0_EE3endEv,"axG",@progbits,_ZNKSt6vectorI5TokenSaIS0_EE3endEv,comdat
+	.align 2
+	.weak	_ZNKSt6vectorI5TokenSaIS0_EE3endEv
+	.type	_ZNKSt6vectorI5TokenSaIS0_EE3endEv, @function
+_ZNKSt6vectorI5TokenSaIS0_EE3endEv:
+.LFB2189:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -24(%rbp)
+	movq	-24(%rbp), %rax
+	movq	8(%rax), %rax
+	movq	%rax, -8(%rbp)
+	leaq	-8(%rbp), %rdx
+	leaq	-16(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS1_SaIS1_EEEC1ERKS3_
+	movq	-16(%rbp), %rax
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2189:
+	.size	_ZNKSt6vectorI5TokenSaIS0_EE3endEv, .-_ZNKSt6vectorI5TokenSaIS0_EE3endEv
+	.section	.text._ZSt22__uninitialized_copy_aIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_S2_ET0_T_SB_SA_RSaIT1_E,"axG",@progbits,_ZSt22__uninitialized_copy_aIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_S2_ET0_T_SB_SA_RSaIT1_E,comdat
+	.weak	_ZSt22__uninitialized_copy_aIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_S2_ET0_T_SB_SA_RSaIT1_E
+	.type	_ZSt22__uninitialized_copy_aIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_S2_ET0_T_SB_SA_RSaIT1_E, @function
+_ZSt22__uninitialized_copy_aIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_S2_ET0_T_SB_SA_RSaIT1_E:
+.LFB2190:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -16(%rbp)
+	movq	%rsi, -32(%rbp)
+	movq	%rdx, -24(%rbp)
+	movq	%rcx, -8(%rbp)
+	movq	-24(%rbp), %rdx
+	movq	-32(%rbp), %rcx
+	movq	-16(%rbp), %rax
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	_ZSt18uninitialized_copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET0_T_SB_SA_
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2190:
+	.size	_ZSt22__uninitialized_copy_aIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_S2_ET0_T_SB_SA_RSaIT1_E, .-_ZSt22__uninitialized_copy_aIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_S2_ET0_T_SB_SA_RSaIT1_E
+	.section	.text._ZSt7forwardIRK5TokenEOT_RNSt16remove_referenceIS3_E4typeE,"axG",@progbits,_ZSt7forwardIRK5TokenEOT_RNSt16remove_referenceIS3_E4typeE,comdat
+	.weak	_ZSt7forwardIRK5TokenEOT_RNSt16remove_referenceIS3_E4typeE
+	.type	_ZSt7forwardIRK5TokenEOT_RNSt16remove_referenceIS3_E4typeE, @function
+_ZSt7forwardIRK5TokenEOT_RNSt16remove_referenceIS3_E4typeE:
+.LFB2214:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2214:
+	.size	_ZSt7forwardIRK5TokenEOT_RNSt16remove_referenceIS3_E4typeE, .-_ZSt7forwardIRK5TokenEOT_RNSt16remove_referenceIS3_E4typeE
+	.section	.text._ZNSt16allocator_traitsISaI5TokenEE9constructIS0_JRKS0_EEEvRS1_PT_DpOT0_,"axG",@progbits,_ZNSt16allocator_traitsISaI5TokenEE9constructIS0_JRKS0_EEEvRS1_PT_DpOT0_,comdat
+	.weak	_ZNSt16allocator_traitsISaI5TokenEE9constructIS0_JRKS0_EEEvRS1_PT_DpOT0_
+	.type	_ZNSt16allocator_traitsISaI5TokenEE9constructIS0_JRKS0_EEEvRS1_PT_DpOT0_, @function
+_ZNSt16allocator_traitsISaI5TokenEE9constructIS0_JRKS0_EEEvRS1_PT_DpOT0_:
+.LFB2213:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	%rdx, -24(%rbp)
+	movq	-24(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt7forwardIRK5TokenEOT_RNSt16remove_referenceIS3_E4typeE
+	movq	%rax, %rdx
+	movq	-16(%rbp), %rcx
+	movq	-8(%rbp), %rax
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	_ZN9__gnu_cxx13new_allocatorI5TokenE9constructIS1_JRKS1_EEEvPT_DpOT0_
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2213:
+	.size	_ZNSt16allocator_traitsISaI5TokenEE9constructIS0_JRKS0_EEEvRS1_PT_DpOT0_, .-_ZNSt16allocator_traitsISaI5TokenEE9constructIS0_JRKS0_EEEvRS1_PT_DpOT0_
+	.weak	_ZNSt16allocator_traitsISaI5TokenEE9constructIS0_IRKS0_EEEvRS1_PT_DpOT0_
+	.set	_ZNSt16allocator_traitsISaI5TokenEE9constructIS0_IRKS0_EEEvRS1_PT_DpOT0_,_ZNSt16allocator_traitsISaI5TokenEE9constructIS0_JRKS0_EEEvRS1_PT_DpOT0_
+	.section	.rodata
+.LC28:
+	.string	"vector::_M_emplace_back_aux"
+	.section	.text._ZNSt6vectorI5TokenSaIS0_EE19_M_emplace_back_auxIJRKS0_EEEvDpOT_,"axG",@progbits,_ZNSt6vectorI5TokenSaIS0_EE19_M_emplace_back_auxIJRKS0_EEEvDpOT_,comdat
+	.align 2
+	.weak	_ZNSt6vectorI5TokenSaIS0_EE19_M_emplace_back_auxIJRKS0_EEEvDpOT_
+	.type	_ZNSt6vectorI5TokenSaIS0_EE19_M_emplace_back_auxIJRKS0_EEEvDpOT_, @function
+_ZNSt6vectorI5TokenSaIS0_EE19_M_emplace_back_auxIJRKS0_EEEvDpOT_:
+.LFB2215:
+	.cfi_startproc
+	.cfi_personality 0x3,__gxx_personality_v0
+	.cfi_lsda 0x3,.LLSDA2215
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$56, %rsp
+	.cfi_offset 3, -24
+	movq	%rdi, -56(%rbp)
+	movq	%rsi, -64(%rbp)
+	movq	-56(%rbp), %rax
+	movl	$.LC28, %edx
+	movl	$1, %esi
+	movq	%rax, %rdi
+.LEHB24:
+	call	_ZNKSt6vectorI5TokenSaIS0_EE12_M_check_lenEmPKc
+	movq	%rax, -32(%rbp)
+	movq	-56(%rbp), %rax
+	movq	-32(%rbp), %rdx
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EE11_M_allocateEm
+.LEHE24:
+	movq	%rax, -40(%rbp)
+	movq	-40(%rbp), %rax
+	movq	%rax, -24(%rbp)
+	movq	-64(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt7forwardIRK5TokenEOT_RNSt16remove_referenceIS3_E4typeE
+	movq	%rax, %rbx
+	movq	-56(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6vectorI5TokenSaIS0_EE4sizeEv
+	leaq	0(,%rax,8), %rdx
+	movq	-40(%rbp), %rax
+	leaq	(%rdx,%rax), %rcx
+	movq	-56(%rbp), %rax
+	movq	%rbx, %rdx
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt16allocator_traitsISaI5TokenEE9constructIS0_JRKS0_EEEvRS1_PT_DpOT0_
+	movq	$0, -24(%rbp)
+	movq	-56(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv
+	movq	%rax, %rcx
+	movq	-56(%rbp), %rax
+	movq	8(%rax), %rsi
+	movq	-56(%rbp), %rax
+	movq	(%rax), %rax
+	movq	-40(%rbp), %rdx
+	movq	%rax, %rdi
+.LEHB25:
+	call	_ZSt34__uninitialized_move_if_noexcept_aIP5TokenS1_SaIS0_EET0_T_S4_S3_RT1_
+.LEHE25:
+	movq	%rax, -24(%rbp)
+	addq	$8, -24(%rbp)
+	movq	-56(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv
+	movq	%rax, %rdx
+	movq	-56(%rbp), %rax
+	movq	8(%rax), %rcx
+	movq	-56(%rbp), %rax
+	movq	(%rax), %rax
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+.LEHB26:
+	call	_ZSt8_DestroyIP5TokenS0_EvT_S2_RSaIT0_E
+	movq	-56(%rbp), %rax
+	movq	16(%rax), %rax
+	movq	%rax, %rdx
+	movq	-56(%rbp), %rax
+	movq	(%rax), %rax
+	subq	%rax, %rdx
+	movq	%rdx, %rax
+	sarq	$3, %rax
+	movq	%rax, %rdx
+	movq	-56(%rbp), %rax
+	movq	(%rax), %rcx
+	movq	-56(%rbp), %rax
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EE13_M_deallocateEPS0_m
+.LEHE26:
+	movq	-56(%rbp), %rax
+	movq	-40(%rbp), %rdx
+	movq	%rdx, (%rax)
+	movq	-56(%rbp), %rax
+	movq	-24(%rbp), %rdx
+	movq	%rdx, 8(%rax)
+	movq	-32(%rbp), %rax
+	leaq	0(,%rax,8), %rdx
+	movq	-40(%rbp), %rax
+	addq	%rax, %rdx
+	movq	-56(%rbp), %rax
+	movq	%rdx, 16(%rax)
+	jmp	.L169
+.L167:
+	movq	%rax, %rdi
+	call	__cxa_begin_catch
+	cmpq	$0, -24(%rbp)
+	jne	.L164
+	movq	-56(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6vectorI5TokenSaIS0_EE4sizeEv
+	leaq	0(,%rax,8), %rdx
+	movq	-40(%rbp), %rax
+	addq	%rax, %rdx
+	movq	-56(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+.LEHB27:
+	call	_ZNSt16allocator_traitsISaI5TokenEE7destroyIS0_EEvRS1_PT_
+	jmp	.L165
+.L164:
+	movq	-56(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv
+	movq	%rax, %rdx
+	movq	-24(%rbp), %rcx
+	movq	-40(%rbp), %rax
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	_ZSt8_DestroyIP5TokenS0_EvT_S2_RSaIT0_E
+.L165:
+	movq	-56(%rbp), %rax
+	movq	-32(%rbp), %rdx
+	movq	-40(%rbp), %rcx
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EE13_M_deallocateEPS0_m
+	call	__cxa_rethrow
+.LEHE27:
+.L168:
+	movq	%rax, %rbx
+	call	__cxa_end_catch
+	movq	%rbx, %rax
+	movq	%rax, %rdi
+.LEHB28:
+	call	_Unwind_Resume
+.LEHE28:
+.L169:
+	addq	$56, %rsp
+	popq	%rbx
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2215:
+	.section	.gcc_except_table
+	.align 4
+.LLSDA2215:
+	.byte	0xff
+	.byte	0x3
+	.uleb128 .LLSDATT2215-.LLSDATTD2215
+.LLSDATTD2215:
+	.byte	0x1
+	.uleb128 .LLSDACSE2215-.LLSDACSB2215
+.LLSDACSB2215:
+	.uleb128 .LEHB24-.LFB2215
+	.uleb128 .LEHE24-.LEHB24
+	.uleb128 0
+	.uleb128 0
+	.uleb128 .LEHB25-.LFB2215
+	.uleb128 .LEHE25-.LEHB25
+	.uleb128 .L167-.LFB2215
+	.uleb128 0x1
+	.uleb128 .LEHB26-.LFB2215
+	.uleb128 .LEHE26-.LEHB26
+	.uleb128 0
+	.uleb128 0
+	.uleb128 .LEHB27-.LFB2215
+	.uleb128 .LEHE27-.LEHB27
+	.uleb128 .L168-.LFB2215
+	.uleb128 0
+	.uleb128 .LEHB28-.LFB2215
+	.uleb128 .LEHE28-.LEHB28
+	.uleb128 0
+	.uleb128 0
+.LLSDACSE2215:
+	.byte	0x1
+	.byte	0
+	.align 4
+	.long	0
+
+.LLSDATT2215:
+	.section	.text._ZNSt6vectorI5TokenSaIS0_EE19_M_emplace_back_auxIJRKS0_EEEvDpOT_,"axG",@progbits,_ZNSt6vectorI5TokenSaIS0_EE19_M_emplace_back_auxIJRKS0_EEEvDpOT_,comdat
+	.size	_ZNSt6vectorI5TokenSaIS0_EE19_M_emplace_back_auxIJRKS0_EEEvDpOT_, .-_ZNSt6vectorI5TokenSaIS0_EE19_M_emplace_back_auxIJRKS0_EEEvDpOT_
+	.weak	_ZNSt6vectorI5TokenSaIS0_EE19_M_emplace_back_auxIIRKS0_EEEvDpOT_
+	.set	_ZNSt6vectorI5TokenSaIS0_EE19_M_emplace_back_auxIIRKS0_EEEvDpOT_,_ZNSt6vectorI5TokenSaIS0_EE19_M_emplace_back_auxIJRKS0_EEEvDpOT_
+	.section	.text._ZSt4moveIRSaI5TokenEEONSt16remove_referenceIT_E4typeEOS4_,"axG",@progbits,_ZSt4moveIRSaI5TokenEEONSt16remove_referenceIT_E4typeEOS4_,comdat
+	.weak	_ZSt4moveIRSaI5TokenEEONSt16remove_referenceIT_E4typeEOS4_
+	.type	_ZSt4moveIRSaI5TokenEEONSt16remove_referenceIT_E4typeEOS4_, @function
+_ZSt4moveIRSaI5TokenEEONSt16remove_referenceIT_E4typeEOS4_:
+.LFB2217:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2217:
+	.size	_ZSt4moveIRSaI5TokenEEONSt16remove_referenceIT_E4typeEOS4_, .-_ZSt4moveIRSaI5TokenEEONSt16remove_referenceIT_E4typeEOS4_
+	.section	.text._ZN9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEC2ERKS2_,"axG",@progbits,_ZN9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEC5ERKS2_,comdat
+	.align 2
+	.weak	_ZN9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEC2ERKS2_
+	.type	_ZN9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEC2ERKS2_, @function
+_ZN9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEC2ERKS2_:
+.LFB2221:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-16(%rbp), %rax
+	movq	(%rax), %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, (%rax)
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2221:
+	.size	_ZN9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEC2ERKS2_, .-_ZN9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEC2ERKS2_
+	.weak	_ZN9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEC1ERKS2_
+	.set	_ZN9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEC1ERKS2_,_ZN9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEEC2ERKS2_
+	.section	.text._ZNK9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEE4baseEv,"axG",@progbits,_ZNK9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEE4baseEv,comdat
+	.align 2
+	.weak	_ZNK9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEE4baseEv
+	.type	_ZNK9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEE4baseEv, @function
+_ZNK9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEE4baseEv:
+.LFB2223:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2223:
+	.size	_ZNK9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEE4baseEv, .-_ZNK9__gnu_cxx17__normal_iteratorIP5TokenSt6vectorIS1_SaIS1_EEE4baseEv
+	.section	.text._ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC2Ev,"axG",@progbits,_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC5Ev,comdat
+	.align 2
+	.weak	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC2Ev
+	.type	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC2Ev, @function
+_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC2Ev:
+.LFB2248:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSaI5TokenEC2Ev
+	movq	-8(%rbp), %rax
+	movq	$0, (%rax)
+	movq	-8(%rbp), %rax
+	movq	$0, 8(%rax)
+	movq	-8(%rbp), %rax
+	movq	$0, 16(%rax)
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2248:
+	.size	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC2Ev, .-_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC2Ev
+	.weak	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC1Ev
+	.set	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC1Ev,_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC2Ev
+	.section	.text._ZNSt12_Vector_baseI5TokenSaIS0_EE13_M_deallocateEPS0_m,"axG",@progbits,_ZNSt12_Vector_baseI5TokenSaIS0_EE13_M_deallocateEPS0_m,comdat
+	.align 2
+	.weak	_ZNSt12_Vector_baseI5TokenSaIS0_EE13_M_deallocateEPS0_m
+	.type	_ZNSt12_Vector_baseI5TokenSaIS0_EE13_M_deallocateEPS0_m, @function
+_ZNSt12_Vector_baseI5TokenSaIS0_EE13_M_deallocateEPS0_m:
+.LFB2250:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	%rdx, -24(%rbp)
+	cmpq	$0, -16(%rbp)
+	je	.L178
+	movq	-8(%rbp), %rax
+	movq	-24(%rbp), %rdx
+	movq	-16(%rbp), %rcx
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt16allocator_traitsISaI5TokenEE10deallocateERS1_PS0_m
+.L178:
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2250:
+	.size	_ZNSt12_Vector_baseI5TokenSaIS0_EE13_M_deallocateEPS0_m, .-_ZNSt12_Vector_baseI5TokenSaIS0_EE13_M_deallocateEPS0_m
+	.section	.text._ZSt8_DestroyIP5TokenEvT_S2_,"axG",@progbits,_ZSt8_DestroyIP5TokenEvT_S2_,comdat
+	.weak	_ZSt8_DestroyIP5TokenEvT_S2_
+	.type	_ZSt8_DestroyIP5TokenEvT_S2_, @function
+_ZSt8_DestroyIP5TokenEvT_S2_:
+.LFB2251:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-16(%rbp), %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt12_Destroy_auxILb1EE9__destroyIP5TokenEEvT_S4_
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2251:
+	.size	_ZSt8_DestroyIP5TokenEvT_S2_, .-_ZSt8_DestroyIP5TokenEvT_S2_
+	.section	.text._ZNKSt12_Vector_baseI5TokenSaIS0_EE13get_allocatorEv,"axG",@progbits,_ZNKSt12_Vector_baseI5TokenSaIS0_EE13get_allocatorEv,comdat
+	.align 2
+	.weak	_ZNKSt12_Vector_baseI5TokenSaIS0_EE13get_allocatorEv
+	.type	_ZNKSt12_Vector_baseI5TokenSaIS0_EE13get_allocatorEv, @function
+_ZNKSt12_Vector_baseI5TokenSaIS0_EE13get_allocatorEv:
+.LFB2252:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-16(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv
+	movq	%rax, %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSaI5TokenEC1ERKS0_
+	movq	-8(%rbp), %rax
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2252:
+	.size	_ZNKSt12_Vector_baseI5TokenSaIS0_EE13get_allocatorEv, .-_ZNKSt12_Vector_baseI5TokenSaIS0_EE13get_allocatorEv
+	.section	.text._ZNSt6vectorI5TokenSaIS0_EEC2ERKS1_,"axG",@progbits,_ZNSt6vectorI5TokenSaIS0_EEC5ERKS1_,comdat
+	.align 2
+	.weak	_ZNSt6vectorI5TokenSaIS0_EEC2ERKS1_
+	.type	_ZNSt6vectorI5TokenSaIS0_EEC2ERKS1_, @function
+_ZNSt6vectorI5TokenSaIS0_EEC2ERKS1_:
+.LFB2254:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-8(%rbp), %rax
+	movq	-16(%rbp), %rdx
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EEC2ERKS1_
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2254:
+	.size	_ZNSt6vectorI5TokenSaIS0_EEC2ERKS1_, .-_ZNSt6vectorI5TokenSaIS0_EEC2ERKS1_
+	.weak	_ZNSt6vectorI5TokenSaIS0_EEC1ERKS1_
+	.set	_ZNSt6vectorI5TokenSaIS0_EEC1ERKS1_,_ZNSt6vectorI5TokenSaIS0_EEC2ERKS1_
+	.section	.text._ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_impl12_M_swap_dataERS3_,"axG",@progbits,_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_impl12_M_swap_dataERS3_,comdat
+	.align 2
+	.weak	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_impl12_M_swap_dataERS3_
+	.type	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_impl12_M_swap_dataERS3_, @function
+_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_impl12_M_swap_dataERS3_:
+.LFB2256:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-16(%rbp), %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZSt4swapIP5TokenEvRT_S3_
+	movq	-16(%rbp), %rax
+	leaq	8(%rax), %rdx
+	movq	-8(%rbp), %rax
+	addq	$8, %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZSt4swapIP5TokenEvRT_S3_
+	movq	-16(%rbp), %rax
+	leaq	16(%rax), %rdx
+	movq	-8(%rbp), %rax
+	addq	$16, %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZSt4swapIP5TokenEvRT_S3_
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2256:
+	.size	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_impl12_M_swap_dataERS3_, .-_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_impl12_M_swap_dataERS3_
+	.section	.text._ZSt15__alloc_on_moveISaI5TokenEEvRT_S3_,"axG",@progbits,_ZSt15__alloc_on_moveISaI5TokenEEvRT_S3_,comdat
+	.weak	_ZSt15__alloc_on_moveISaI5TokenEEvRT_S3_
+	.type	_ZSt15__alloc_on_moveISaI5TokenEEvRT_S3_, @function
+_ZSt15__alloc_on_moveISaI5TokenEEvRT_S3_:
+.LFB2257:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -24(%rbp)
+	movq	%rsi, -32(%rbp)
+	movq	-32(%rbp), %rdx
+	movq	-24(%rbp), %rax
+	subq	$8, %rsp
+	pushq	%rcx
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZSt18__do_alloc_on_moveISaI5TokenEEvRT_S3_St17integral_constantIbLb1EE
+	addq	$16, %rsp
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2257:
+	.size	_ZSt15__alloc_on_moveISaI5TokenEEvRT_S3_, .-_ZSt15__alloc_on_moveISaI5TokenEEvRT_S3_
+	.section	.text._ZNSt16allocator_traitsISaI5TokenEE37select_on_container_copy_constructionERKS1_,"axG",@progbits,_ZNSt16allocator_traitsISaI5TokenEE37select_on_container_copy_constructionERKS1_,comdat
+	.weak	_ZNSt16allocator_traitsISaI5TokenEE37select_on_container_copy_constructionERKS1_
+	.type	_ZNSt16allocator_traitsISaI5TokenEE37select_on_container_copy_constructionERKS1_, @function
+_ZNSt16allocator_traitsISaI5TokenEE37select_on_container_copy_constructionERKS1_:
+.LFB2258:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-16(%rbp), %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSaI5TokenEC1ERKS0_
+	movq	-8(%rbp), %rax
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2258:
+	.size	_ZNSt16allocator_traitsISaI5TokenEE37select_on_container_copy_constructionERKS1_, .-_ZNSt16allocator_traitsISaI5TokenEE37select_on_container_copy_constructionERKS1_
+	.section	.text._ZNSaI5TokenEC2ERKS0_,"axG",@progbits,_ZNSaI5TokenEC5ERKS0_,comdat
+	.align 2
+	.weak	_ZNSaI5TokenEC2ERKS0_
+	.type	_ZNSaI5TokenEC2ERKS0_, @function
+_ZNSaI5TokenEC2ERKS0_:
+.LFB2260:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-16(%rbp), %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZN9__gnu_cxx13new_allocatorI5TokenEC2ERKS2_
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2260:
+	.size	_ZNSaI5TokenEC2ERKS0_, .-_ZNSaI5TokenEC2ERKS0_
+	.weak	_ZNSaI5TokenEC1ERKS0_
+	.set	_ZNSaI5TokenEC1ERKS0_,_ZNSaI5TokenEC2ERKS0_
+	.section	.text._ZN9__gnu_cxx13new_allocatorI5TokenED2Ev,"axG",@progbits,_ZN9__gnu_cxx13new_allocatorI5TokenED5Ev,comdat
+	.align 2
+	.weak	_ZN9__gnu_cxx13new_allocatorI5TokenED2Ev
+	.type	_ZN9__gnu_cxx13new_allocatorI5TokenED2Ev, @function
+_ZN9__gnu_cxx13new_allocatorI5TokenED2Ev:
+.LFB2263:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2263:
+	.size	_ZN9__gnu_cxx13new_allocatorI5TokenED2Ev, .-_ZN9__gnu_cxx13new_allocatorI5TokenED2Ev
+	.weak	_ZN9__gnu_cxx13new_allocatorI5TokenED1Ev
+	.set	_ZN9__gnu_cxx13new_allocatorI5TokenED1Ev,_ZN9__gnu_cxx13new_allocatorI5TokenED2Ev
+	.section	.text._ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC2ERKS1_,"axG",@progbits,_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC5ERKS1_,comdat
+	.align 2
+	.weak	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC2ERKS1_
+	.type	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC2ERKS1_, @function
+_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC2ERKS1_:
+.LFB2266:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-16(%rbp), %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSaI5TokenEC2ERKS0_
+	movq	-8(%rbp), %rax
+	movq	$0, (%rax)
+	movq	-8(%rbp), %rax
+	movq	$0, 8(%rax)
+	movq	-8(%rbp), %rax
+	movq	$0, 16(%rax)
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2266:
+	.size	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC2ERKS1_, .-_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC2ERKS1_
+	.weak	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC1ERKS1_
+	.set	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC1ERKS1_,_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC2ERKS1_
+	.section	.text._ZNSt12_Vector_baseI5TokenSaIS0_EE17_M_create_storageEm,"axG",@progbits,_ZNSt12_Vector_baseI5TokenSaIS0_EE17_M_create_storageEm,comdat
+	.align 2
+	.weak	_ZNSt12_Vector_baseI5TokenSaIS0_EE17_M_create_storageEm
+	.type	_ZNSt12_Vector_baseI5TokenSaIS0_EE17_M_create_storageEm, @function
+_ZNSt12_Vector_baseI5TokenSaIS0_EE17_M_create_storageEm:
+.LFB2268:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-16(%rbp), %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EE11_M_allocateEm
+	movq	%rax, %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, (%rax)
+	movq	-8(%rbp), %rax
+	movq	(%rax), %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, 8(%rax)
+	movq	-8(%rbp), %rax
+	movq	(%rax), %rax
+	movq	-16(%rbp), %rdx
+	salq	$3, %rdx
+	addq	%rax, %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, 16(%rax)
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2268:
+	.size	_ZNSt12_Vector_baseI5TokenSaIS0_EE17_M_create_storageEm, .-_ZNSt12_Vector_baseI5TokenSaIS0_EE17_M_create_storageEm
+	.section	.text._ZN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS1_SaIS1_EEEC2ERKS3_,"axG",@progbits,_ZN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS1_SaIS1_EEEC5ERKS3_,comdat
+	.align 2
+	.weak	_ZN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS1_SaIS1_EEEC2ERKS3_
+	.type	_ZN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS1_SaIS1_EEEC2ERKS3_, @function
+_ZN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS1_SaIS1_EEEC2ERKS3_:
+.LFB2270:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-16(%rbp), %rax
+	movq	(%rax), %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, (%rax)
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2270:
+	.size	_ZN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS1_SaIS1_EEEC2ERKS3_, .-_ZN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS1_SaIS1_EEEC2ERKS3_
+	.weak	_ZN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS1_SaIS1_EEEC1ERKS3_
+	.set	_ZN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS1_SaIS1_EEEC1ERKS3_,_ZN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS1_SaIS1_EEEC2ERKS3_
+	.section	.text._ZSt18uninitialized_copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET0_T_SB_SA_,"axG",@progbits,_ZSt18uninitialized_copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET0_T_SB_SA_,comdat
+	.weak	_ZSt18uninitialized_copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET0_T_SB_SA_
+	.type	_ZSt18uninitialized_copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET0_T_SB_SA_, @function
+_ZSt18uninitialized_copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET0_T_SB_SA_:
+.LFB2272:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$48, %rsp
+	movq	%rdi, -32(%rbp)
+	movq	%rsi, -48(%rbp)
+	movq	%rdx, -40(%rbp)
+	movb	$1, -1(%rbp)
+	movq	-40(%rbp), %rdx
+	movq	-48(%rbp), %rcx
+	movq	-32(%rbp), %rax
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt20__uninitialized_copyILb1EE13__uninit_copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS4_SaIS4_EEEEPS4_EET0_T_SD_SC_
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2272:
+	.size	_ZSt18uninitialized_copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET0_T_SB_SA_, .-_ZSt18uninitialized_copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET0_T_SB_SA_
+	.section	.text._ZN9__gnu_cxx13new_allocatorI5TokenE9constructIS1_JRKS1_EEEvPT_DpOT0_,"axG",@progbits,_ZN9__gnu_cxx13new_allocatorI5TokenE9constructIS1_JRKS1_EEEvPT_DpOT0_,comdat
+	.align 2
+	.weak	_ZN9__gnu_cxx13new_allocatorI5TokenE9constructIS1_JRKS1_EEEvPT_DpOT0_
+	.type	_ZN9__gnu_cxx13new_allocatorI5TokenE9constructIS1_JRKS1_EEEvPT_DpOT0_, @function
+_ZN9__gnu_cxx13new_allocatorI5TokenE9constructIS1_JRKS1_EEEvPT_DpOT0_:
+.LFB2290:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$40, %rsp
+	.cfi_offset 3, -24
+	movq	%rdi, -24(%rbp)
+	movq	%rsi, -32(%rbp)
+	movq	%rdx, -40(%rbp)
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt7forwardIRK5TokenEOT_RNSt16remove_referenceIS3_E4typeE
+	movq	%rax, %rbx
+	movq	-32(%rbp), %rax
+	movq	%rax, %rsi
+	movl	$8, %edi
+	call	_ZnwmPv
+	testq	%rax, %rax
+	je	.L197
+	movq	(%rbx), %rdx
+	movq	%rdx, (%rax)
+.L197:
+	nop
+	addq	$40, %rsp
+	popq	%rbx
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2290:
+	.size	_ZN9__gnu_cxx13new_allocatorI5TokenE9constructIS1_JRKS1_EEEvPT_DpOT0_, .-_ZN9__gnu_cxx13new_allocatorI5TokenE9constructIS1_JRKS1_EEEvPT_DpOT0_
+	.weak	_ZN9__gnu_cxx13new_allocatorI5TokenE9constructIS1_IRKS1_EEEvPT_DpOT0_
+	.set	_ZN9__gnu_cxx13new_allocatorI5TokenE9constructIS1_IRKS1_EEEvPT_DpOT0_,_ZN9__gnu_cxx13new_allocatorI5TokenE9constructIS1_JRKS1_EEEvPT_DpOT0_
+	.section	.text._ZNKSt6vectorI5TokenSaIS0_EE12_M_check_lenEmPKc,"axG",@progbits,_ZNKSt6vectorI5TokenSaIS0_EE12_M_check_lenEmPKc,comdat
+	.align 2
+	.weak	_ZNKSt6vectorI5TokenSaIS0_EE12_M_check_lenEmPKc
+	.type	_ZNKSt6vectorI5TokenSaIS0_EE12_M_check_lenEmPKc, @function
+_ZNKSt6vectorI5TokenSaIS0_EE12_M_check_lenEmPKc:
+.LFB2291:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$56, %rsp
+	.cfi_offset 3, -24
+	movq	%rdi, -40(%rbp)
+	movq	%rsi, -48(%rbp)
+	movq	%rdx, -56(%rbp)
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6vectorI5TokenSaIS0_EE8max_sizeEv
+	movq	%rax, %rbx
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6vectorI5TokenSaIS0_EE4sizeEv
+	subq	%rax, %rbx
+	movq	%rbx, %rdx
+	movq	-48(%rbp), %rax
+	cmpq	%rax, %rdx
+	setb	%al
+	testb	%al, %al
+	je	.L199
+	movq	-56(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt20__throw_length_errorPKc
+.L199:
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6vectorI5TokenSaIS0_EE4sizeEv
+	movq	%rax, %rbx
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6vectorI5TokenSaIS0_EE4sizeEv
+	movq	%rax, -32(%rbp)
+	leaq	-48(%rbp), %rdx
+	leaq	-32(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZSt3maxImERKT_S2_S2_
+	movq	(%rax), %rax
+	addq	%rbx, %rax
+	movq	%rax, -24(%rbp)
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6vectorI5TokenSaIS0_EE4sizeEv
+	cmpq	-24(%rbp), %rax
+	ja	.L200
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6vectorI5TokenSaIS0_EE8max_sizeEv
+	cmpq	-24(%rbp), %rax
+	jnb	.L201
+.L200:
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6vectorI5TokenSaIS0_EE8max_sizeEv
+	jmp	.L203
+.L201:
+	movq	-24(%rbp), %rax
+.L203:
+	addq	$56, %rsp
+	popq	%rbx
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2291:
+	.size	_ZNKSt6vectorI5TokenSaIS0_EE12_M_check_lenEmPKc, .-_ZNKSt6vectorI5TokenSaIS0_EE12_M_check_lenEmPKc
+	.section	.text._ZNSt12_Vector_baseI5TokenSaIS0_EE11_M_allocateEm,"axG",@progbits,_ZNSt12_Vector_baseI5TokenSaIS0_EE11_M_allocateEm,comdat
+	.align 2
+	.weak	_ZNSt12_Vector_baseI5TokenSaIS0_EE11_M_allocateEm
+	.type	_ZNSt12_Vector_baseI5TokenSaIS0_EE11_M_allocateEm, @function
+_ZNSt12_Vector_baseI5TokenSaIS0_EE11_M_allocateEm:
+.LFB2292:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	cmpq	$0, -16(%rbp)
+	je	.L205
+	movq	-8(%rbp), %rax
+	movq	-16(%rbp), %rdx
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt16allocator_traitsISaI5TokenEE8allocateERS1_m
+	jmp	.L207
+.L205:
+	movl	$0, %eax
+.L207:
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2292:
+	.size	_ZNSt12_Vector_baseI5TokenSaIS0_EE11_M_allocateEm, .-_ZNSt12_Vector_baseI5TokenSaIS0_EE11_M_allocateEm
+	.section	.text._ZSt34__uninitialized_move_if_noexcept_aIP5TokenS1_SaIS0_EET0_T_S4_S3_RT1_,"axG",@progbits,_ZSt34__uninitialized_move_if_noexcept_aIP5TokenS1_SaIS0_EET0_T_S4_S3_RT1_,comdat
+	.weak	_ZSt34__uninitialized_move_if_noexcept_aIP5TokenS1_SaIS0_EET0_T_S4_S3_RT1_
+	.type	_ZSt34__uninitialized_move_if_noexcept_aIP5TokenS1_SaIS0_EET0_T_S4_S3_RT1_, @function
+_ZSt34__uninitialized_move_if_noexcept_aIP5TokenS1_SaIS0_EET0_T_S4_S3_RT1_:
+.LFB2293:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$40, %rsp
+	.cfi_offset 3, -24
+	movq	%rdi, -24(%rbp)
+	movq	%rsi, -32(%rbp)
+	movq	%rdx, -40(%rbp)
+	movq	%rcx, -48(%rbp)
+	movq	-32(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt32__make_move_if_noexcept_iteratorIP5TokenSt13move_iteratorIS1_EET0_T_
+	movq	%rax, %rbx
+	movq	-24(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt32__make_move_if_noexcept_iteratorIP5TokenSt13move_iteratorIS1_EET0_T_
+	movq	%rax, %rdi
+	movq	-48(%rbp), %rdx
+	movq	-40(%rbp), %rax
+	movq	%rdx, %rcx
+	movq	%rax, %rdx
+	movq	%rbx, %rsi
+	call	_ZSt22__uninitialized_copy_aISt13move_iteratorIP5TokenES2_S1_ET0_T_S5_S4_RSaIT1_E
+	addq	$40, %rsp
+	popq	%rbx
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2293:
+	.size	_ZSt34__uninitialized_move_if_noexcept_aIP5TokenS1_SaIS0_EET0_T_S4_S3_RT1_, .-_ZSt34__uninitialized_move_if_noexcept_aIP5TokenS1_SaIS0_EET0_T_S4_S3_RT1_
+	.section	.text._ZNSt16allocator_traitsISaI5TokenEE7destroyIS0_EEvRS1_PT_,"axG",@progbits,_ZNSt16allocator_traitsISaI5TokenEE7destroyIS0_EEvRS1_PT_,comdat
+	.weak	_ZNSt16allocator_traitsISaI5TokenEE7destroyIS0_EEvRS1_PT_
+	.type	_ZNSt16allocator_traitsISaI5TokenEE7destroyIS0_EEvRS1_PT_, @function
+_ZNSt16allocator_traitsISaI5TokenEE7destroyIS0_EEvRS1_PT_:
+.LFB2294:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-16(%rbp), %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZN9__gnu_cxx13new_allocatorI5TokenE7destroyIS1_EEvPT_
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2294:
+	.size	_ZNSt16allocator_traitsISaI5TokenEE7destroyIS0_EEvRS1_PT_, .-_ZNSt16allocator_traitsISaI5TokenEE7destroyIS0_EEvRS1_PT_
+	.section	.text._ZNSaI5TokenEC2Ev,"axG",@progbits,_ZNSaI5TokenEC5Ev,comdat
+	.align 2
+	.weak	_ZNSaI5TokenEC2Ev
+	.type	_ZNSaI5TokenEC2Ev, @function
+_ZNSaI5TokenEC2Ev:
+.LFB2303:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZN9__gnu_cxx13new_allocatorI5TokenEC2Ev
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2303:
+	.size	_ZNSaI5TokenEC2Ev, .-_ZNSaI5TokenEC2Ev
+	.weak	_ZNSaI5TokenEC1Ev
+	.set	_ZNSaI5TokenEC1Ev,_ZNSaI5TokenEC2Ev
+	.section	.text._ZNSt16allocator_traitsISaI5TokenEE10deallocateERS1_PS0_m,"axG",@progbits,_ZNSt16allocator_traitsISaI5TokenEE10deallocateERS1_PS0_m,comdat
+	.weak	_ZNSt16allocator_traitsISaI5TokenEE10deallocateERS1_PS0_m
+	.type	_ZNSt16allocator_traitsISaI5TokenEE10deallocateERS1_PS0_m, @function
+_ZNSt16allocator_traitsISaI5TokenEE10deallocateERS1_PS0_m:
+.LFB2305:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	%rdx, -24(%rbp)
+	movq	-24(%rbp), %rdx
+	movq	-16(%rbp), %rcx
+	movq	-8(%rbp), %rax
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	_ZN9__gnu_cxx13new_allocatorI5TokenE10deallocateEPS1_m
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2305:
+	.size	_ZNSt16allocator_traitsISaI5TokenEE10deallocateERS1_PS0_m, .-_ZNSt16allocator_traitsISaI5TokenEE10deallocateERS1_PS0_m
+	.section	.text._ZNSt12_Destroy_auxILb1EE9__destroyIP5TokenEEvT_S4_,"axG",@progbits,_ZNSt12_Destroy_auxILb1EE9__destroyIP5TokenEEvT_S4_,comdat
+	.weak	_ZNSt12_Destroy_auxILb1EE9__destroyIP5TokenEEvT_S4_
+	.type	_ZNSt12_Destroy_auxILb1EE9__destroyIP5TokenEEvT_S4_, @function
+_ZNSt12_Destroy_auxILb1EE9__destroyIP5TokenEEvT_S4_:
+.LFB2306:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2306:
+	.size	_ZNSt12_Destroy_auxILb1EE9__destroyIP5TokenEEvT_S4_, .-_ZNSt12_Destroy_auxILb1EE9__destroyIP5TokenEEvT_S4_
+	.section	.text._ZNSt12_Vector_baseI5TokenSaIS0_EEC2ERKS1_,"axG",@progbits,_ZNSt12_Vector_baseI5TokenSaIS0_EEC5ERKS1_,comdat
+	.align 2
+	.weak	_ZNSt12_Vector_baseI5TokenSaIS0_EEC2ERKS1_
+	.type	_ZNSt12_Vector_baseI5TokenSaIS0_EEC2ERKS1_, @function
+_ZNSt12_Vector_baseI5TokenSaIS0_EEC2ERKS1_:
+.LFB2308:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-8(%rbp), %rax
+	movq	-16(%rbp), %rdx
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt12_Vector_baseI5TokenSaIS0_EE12_Vector_implC1ERKS1_
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2308:
+	.size	_ZNSt12_Vector_baseI5TokenSaIS0_EEC2ERKS1_, .-_ZNSt12_Vector_baseI5TokenSaIS0_EEC2ERKS1_
+	.weak	_ZNSt12_Vector_baseI5TokenSaIS0_EEC1ERKS1_
+	.set	_ZNSt12_Vector_baseI5TokenSaIS0_EEC1ERKS1_,_ZNSt12_Vector_baseI5TokenSaIS0_EEC2ERKS1_
+	.section	.text._ZSt4moveIRP5TokenEONSt16remove_referenceIT_E4typeEOS4_,"axG",@progbits,_ZSt4moveIRP5TokenEONSt16remove_referenceIT_E4typeEOS4_,comdat
+	.weak	_ZSt4moveIRP5TokenEONSt16remove_referenceIT_E4typeEOS4_
+	.type	_ZSt4moveIRP5TokenEONSt16remove_referenceIT_E4typeEOS4_, @function
+_ZSt4moveIRP5TokenEONSt16remove_referenceIT_E4typeEOS4_:
+.LFB2311:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2311:
+	.size	_ZSt4moveIRP5TokenEONSt16remove_referenceIT_E4typeEOS4_, .-_ZSt4moveIRP5TokenEONSt16remove_referenceIT_E4typeEOS4_
+	.section	.text._ZSt4swapIP5TokenEvRT_S3_,"axG",@progbits,_ZSt4swapIP5TokenEvRT_S3_,comdat
+	.weak	_ZSt4swapIP5TokenEvRT_S3_
+	.type	_ZSt4swapIP5TokenEvRT_S3_, @function
+_ZSt4swapIP5TokenEvRT_S3_:
+.LFB2310:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -24(%rbp)
+	movq	%rsi, -32(%rbp)
+	movq	-24(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt4moveIRP5TokenEONSt16remove_referenceIT_E4typeEOS4_
+	movq	(%rax), %rax
+	movq	%rax, -8(%rbp)
+	movq	-32(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt4moveIRP5TokenEONSt16remove_referenceIT_E4typeEOS4_
+	movq	(%rax), %rdx
+	movq	-24(%rbp), %rax
+	movq	%rdx, (%rax)
+	leaq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt4moveIRP5TokenEONSt16remove_referenceIT_E4typeEOS4_
+	movq	(%rax), %rdx
+	movq	-32(%rbp), %rax
+	movq	%rdx, (%rax)
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2310:
+	.size	_ZSt4swapIP5TokenEvRT_S3_, .-_ZSt4swapIP5TokenEvRT_S3_
+	.section	.text._ZSt18__do_alloc_on_moveISaI5TokenEEvRT_S3_St17integral_constantIbLb1EE,"axG",@progbits,_ZSt18__do_alloc_on_moveISaI5TokenEEvRT_S3_St17integral_constantIbLb1EE,comdat
+	.weak	_ZSt18__do_alloc_on_moveISaI5TokenEEvRT_S3_St17integral_constantIbLb1EE
+	.type	_ZSt18__do_alloc_on_moveISaI5TokenEEvRT_S3_St17integral_constantIbLb1EE, @function
+_ZSt18__do_alloc_on_moveISaI5TokenEEvRT_S3_St17integral_constantIbLb1EE:
+.LFB2312:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-16(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt4moveIRSaI5TokenEEONSt16remove_referenceIT_E4typeEOS4_
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2312:
+	.size	_ZSt18__do_alloc_on_moveISaI5TokenEEvRT_S3_St17integral_constantIbLb1EE, .-_ZSt18__do_alloc_on_moveISaI5TokenEEvRT_S3_St17integral_constantIbLb1EE
+	.section	.text._ZN9__gnu_cxx13new_allocatorI5TokenEC2ERKS2_,"axG",@progbits,_ZN9__gnu_cxx13new_allocatorI5TokenEC5ERKS2_,comdat
+	.align 2
+	.weak	_ZN9__gnu_cxx13new_allocatorI5TokenEC2ERKS2_
+	.type	_ZN9__gnu_cxx13new_allocatorI5TokenEC2ERKS2_, @function
+_ZN9__gnu_cxx13new_allocatorI5TokenEC2ERKS2_:
+.LFB2314:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2314:
+	.size	_ZN9__gnu_cxx13new_allocatorI5TokenEC2ERKS2_, .-_ZN9__gnu_cxx13new_allocatorI5TokenEC2ERKS2_
+	.weak	_ZN9__gnu_cxx13new_allocatorI5TokenEC1ERKS2_
+	.set	_ZN9__gnu_cxx13new_allocatorI5TokenEC1ERKS2_,_ZN9__gnu_cxx13new_allocatorI5TokenEC2ERKS2_
+	.section	.text._ZNSt20__uninitialized_copyILb1EE13__uninit_copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS4_SaIS4_EEEEPS4_EET0_T_SD_SC_,"axG",@progbits,_ZNSt20__uninitialized_copyILb1EE13__uninit_copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS4_SaIS4_EEEEPS4_EET0_T_SD_SC_,comdat
+	.weak	_ZNSt20__uninitialized_copyILb1EE13__uninit_copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS4_SaIS4_EEEEPS4_EET0_T_SD_SC_
+	.type	_ZNSt20__uninitialized_copyILb1EE13__uninit_copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS4_SaIS4_EEEEPS4_EET0_T_SD_SC_, @function
+_ZNSt20__uninitialized_copyILb1EE13__uninit_copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS4_SaIS4_EEEEPS4_EET0_T_SD_SC_:
+.LFB2316:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -16(%rbp)
+	movq	%rsi, -32(%rbp)
+	movq	%rdx, -24(%rbp)
+	movq	-24(%rbp), %rdx
+	movq	-32(%rbp), %rcx
+	movq	-16(%rbp), %rax
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	_ZSt4copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET0_T_SB_SA_
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2316:
+	.size	_ZNSt20__uninitialized_copyILb1EE13__uninit_copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS4_SaIS4_EEEEPS4_EET0_T_SD_SC_, .-_ZNSt20__uninitialized_copyILb1EE13__uninit_copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS4_SaIS4_EEEEPS4_EET0_T_SD_SC_
+	.section	.text._ZNKSt6vectorI5TokenSaIS0_EE8max_sizeEv,"axG",@progbits,_ZNKSt6vectorI5TokenSaIS0_EE8max_sizeEv,comdat
+	.align 2
+	.weak	_ZNKSt6vectorI5TokenSaIS0_EE8max_sizeEv
+	.type	_ZNKSt6vectorI5TokenSaIS0_EE8max_sizeEv, @function
+_ZNKSt6vectorI5TokenSaIS0_EE8max_sizeEv:
+.LFB2317:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt12_Vector_baseI5TokenSaIS0_EE19_M_get_Tp_allocatorEv
+	movq	%rax, %rdi
+	call	_ZNSt16allocator_traitsISaI5TokenEE8max_sizeERKS1_
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2317:
+	.size	_ZNKSt6vectorI5TokenSaIS0_EE8max_sizeEv, .-_ZNKSt6vectorI5TokenSaIS0_EE8max_sizeEv
+	.section	.text._ZSt3maxImERKT_S2_S2_,"axG",@progbits,_ZSt3maxImERKT_S2_S2_,comdat
+	.weak	_ZSt3maxImERKT_S2_S2_
+	.type	_ZSt3maxImERKT_S2_S2_, @function
+_ZSt3maxImERKT_S2_S2_:
+.LFB2318:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-8(%rbp), %rax
+	movq	(%rax), %rdx
+	movq	-16(%rbp), %rax
+	movq	(%rax), %rax
+	cmpq	%rax, %rdx
+	jnb	.L225
+	movq	-16(%rbp), %rax
+	jmp	.L226
+.L225:
+	movq	-8(%rbp), %rax
+.L226:
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2318:
+	.size	_ZSt3maxImERKT_S2_S2_, .-_ZSt3maxImERKT_S2_S2_
+	.section	.text._ZNSt16allocator_traitsISaI5TokenEE8allocateERS1_m,"axG",@progbits,_ZNSt16allocator_traitsISaI5TokenEE8allocateERS1_m,comdat
+	.weak	_ZNSt16allocator_traitsISaI5TokenEE8allocateERS1_m
+	.type	_ZNSt16allocator_traitsISaI5TokenEE8allocateERS1_m, @function
+_ZNSt16allocator_traitsISaI5TokenEE8allocateERS1_m:
+.LFB2319:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-16(%rbp), %rcx
+	movq	-8(%rbp), %rax
+	movl	$0, %edx
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	_ZN9__gnu_cxx13new_allocatorI5TokenE8allocateEmPKv
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2319:
+	.size	_ZNSt16allocator_traitsISaI5TokenEE8allocateERS1_m, .-_ZNSt16allocator_traitsISaI5TokenEE8allocateERS1_m
+	.section	.text._ZSt32__make_move_if_noexcept_iteratorIP5TokenSt13move_iteratorIS1_EET0_T_,"axG",@progbits,_ZSt32__make_move_if_noexcept_iteratorIP5TokenSt13move_iteratorIS1_EET0_T_,comdat
+	.weak	_ZSt32__make_move_if_noexcept_iteratorIP5TokenSt13move_iteratorIS1_EET0_T_
+	.type	_ZSt32__make_move_if_noexcept_iteratorIP5TokenSt13move_iteratorIS1_EET0_T_, @function
+_ZSt32__make_move_if_noexcept_iteratorIP5TokenSt13move_iteratorIS1_EET0_T_:
+.LFB2320:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -24(%rbp)
+	movq	-24(%rbp), %rdx
+	leaq	-16(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt13move_iteratorIP5TokenEC1ES1_
+	movq	-16(%rbp), %rax
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2320:
+	.size	_ZSt32__make_move_if_noexcept_iteratorIP5TokenSt13move_iteratorIS1_EET0_T_, .-_ZSt32__make_move_if_noexcept_iteratorIP5TokenSt13move_iteratorIS1_EET0_T_
+	.section	.text._ZSt22__uninitialized_copy_aISt13move_iteratorIP5TokenES2_S1_ET0_T_S5_S4_RSaIT1_E,"axG",@progbits,_ZSt22__uninitialized_copy_aISt13move_iteratorIP5TokenES2_S1_ET0_T_S5_S4_RSaIT1_E,comdat
+	.weak	_ZSt22__uninitialized_copy_aISt13move_iteratorIP5TokenES2_S1_ET0_T_S5_S4_RSaIT1_E
+	.type	_ZSt22__uninitialized_copy_aISt13move_iteratorIP5TokenES2_S1_ET0_T_S5_S4_RSaIT1_E, @function
+_ZSt22__uninitialized_copy_aISt13move_iteratorIP5TokenES2_S1_ET0_T_S5_S4_RSaIT1_E:
+.LFB2321:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -16(%rbp)
+	movq	%rsi, -32(%rbp)
+	movq	%rdx, -24(%rbp)
+	movq	%rcx, -8(%rbp)
+	movq	-24(%rbp), %rdx
+	movq	-32(%rbp), %rcx
+	movq	-16(%rbp), %rax
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	_ZSt18uninitialized_copyISt13move_iteratorIP5TokenES2_ET0_T_S5_S4_
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2321:
+	.size	_ZSt22__uninitialized_copy_aISt13move_iteratorIP5TokenES2_S1_ET0_T_S5_S4_RSaIT1_E, .-_ZSt22__uninitialized_copy_aISt13move_iteratorIP5TokenES2_S1_ET0_T_S5_S4_RSaIT1_E
+	.section	.text._ZN9__gnu_cxx13new_allocatorI5TokenE7destroyIS1_EEvPT_,"axG",@progbits,_ZN9__gnu_cxx13new_allocatorI5TokenE7destroyIS1_EEvPT_,comdat
+	.align 2
+	.weak	_ZN9__gnu_cxx13new_allocatorI5TokenE7destroyIS1_EEvPT_
+	.type	_ZN9__gnu_cxx13new_allocatorI5TokenE7destroyIS1_EEvPT_, @function
+_ZN9__gnu_cxx13new_allocatorI5TokenE7destroyIS1_EEvPT_:
+.LFB2322:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2322:
+	.size	_ZN9__gnu_cxx13new_allocatorI5TokenE7destroyIS1_EEvPT_, .-_ZN9__gnu_cxx13new_allocatorI5TokenE7destroyIS1_EEvPT_
+	.section	.text._ZN9__gnu_cxx13new_allocatorI5TokenEC2Ev,"axG",@progbits,_ZN9__gnu_cxx13new_allocatorI5TokenEC5Ev,comdat
+	.align 2
+	.weak	_ZN9__gnu_cxx13new_allocatorI5TokenEC2Ev
+	.type	_ZN9__gnu_cxx13new_allocatorI5TokenEC2Ev, @function
+_ZN9__gnu_cxx13new_allocatorI5TokenEC2Ev:
+.LFB2326:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2326:
+	.size	_ZN9__gnu_cxx13new_allocatorI5TokenEC2Ev, .-_ZN9__gnu_cxx13new_allocatorI5TokenEC2Ev
+	.weak	_ZN9__gnu_cxx13new_allocatorI5TokenEC1Ev
+	.set	_ZN9__gnu_cxx13new_allocatorI5TokenEC1Ev,_ZN9__gnu_cxx13new_allocatorI5TokenEC2Ev
+	.section	.text._ZN9__gnu_cxx13new_allocatorI5TokenE10deallocateEPS1_m,"axG",@progbits,_ZN9__gnu_cxx13new_allocatorI5TokenE10deallocateEPS1_m,comdat
+	.align 2
+	.weak	_ZN9__gnu_cxx13new_allocatorI5TokenE10deallocateEPS1_m
+	.type	_ZN9__gnu_cxx13new_allocatorI5TokenE10deallocateEPS1_m, @function
+_ZN9__gnu_cxx13new_allocatorI5TokenE10deallocateEPS1_m:
+.LFB2328:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	%rdx, -24(%rbp)
+	movq	-16(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZdlPv
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2328:
+	.size	_ZN9__gnu_cxx13new_allocatorI5TokenE10deallocateEPS1_m, .-_ZN9__gnu_cxx13new_allocatorI5TokenE10deallocateEPS1_m
+	.section	.text._ZSt4copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET0_T_SB_SA_,"axG",@progbits,_ZSt4copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET0_T_SB_SA_,comdat
+	.weak	_ZSt4copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET0_T_SB_SA_
+	.type	_ZSt4copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET0_T_SB_SA_, @function
+_ZSt4copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET0_T_SB_SA_:
+.LFB2329:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$40, %rsp
+	.cfi_offset 3, -24
+	movq	%rdi, -32(%rbp)
+	movq	%rsi, -48(%rbp)
+	movq	%rdx, -40(%rbp)
+	movq	-48(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt12__miter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEENSt11_Miter_baseIT_E13iterator_typeESA_
+	movq	%rax, %rbx
+	movq	-32(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt12__miter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEENSt11_Miter_baseIT_E13iterator_typeESA_
+	movq	%rax, %rcx
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdx
+	movq	%rbx, %rsi
+	movq	%rcx, %rdi
+	call	_ZSt14__copy_move_a2ILb0EN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET1_T0_SB_SA_
+	addq	$40, %rsp
+	popq	%rbx
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2329:
+	.size	_ZSt4copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET0_T_SB_SA_, .-_ZSt4copyIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET0_T_SB_SA_
+	.section	.text._ZNSt16allocator_traitsISaI5TokenEE8max_sizeERKS1_,"axG",@progbits,_ZNSt16allocator_traitsISaI5TokenEE8max_sizeERKS1_,comdat
+	.weak	_ZNSt16allocator_traitsISaI5TokenEE8max_sizeERKS1_
+	.type	_ZNSt16allocator_traitsISaI5TokenEE8max_sizeERKS1_, @function
+_ZNSt16allocator_traitsISaI5TokenEE8max_sizeERKS1_:
+.LFB2330:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNK9__gnu_cxx13new_allocatorI5TokenE8max_sizeEv
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2330:
+	.size	_ZNSt16allocator_traitsISaI5TokenEE8max_sizeERKS1_, .-_ZNSt16allocator_traitsISaI5TokenEE8max_sizeERKS1_
+	.section	.text._ZN9__gnu_cxx13new_allocatorI5TokenE8allocateEmPKv,"axG",@progbits,_ZN9__gnu_cxx13new_allocatorI5TokenE8allocateEmPKv,comdat
+	.align 2
+	.weak	_ZN9__gnu_cxx13new_allocatorI5TokenE8allocateEmPKv
+	.type	_ZN9__gnu_cxx13new_allocatorI5TokenE8allocateEmPKv, @function
+_ZN9__gnu_cxx13new_allocatorI5TokenE8allocateEmPKv:
+.LFB2331:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	%rdx, -24(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNK9__gnu_cxx13new_allocatorI5TokenE8max_sizeEv
+	cmpq	-16(%rbp), %rax
+	setb	%al
+	testb	%al, %al
+	je	.L241
+	call	_ZSt17__throw_bad_allocv
+.L241:
+	movq	-16(%rbp), %rax
+	salq	$3, %rax
+	movq	%rax, %rdi
+	call	_Znwm
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2331:
+	.size	_ZN9__gnu_cxx13new_allocatorI5TokenE8allocateEmPKv, .-_ZN9__gnu_cxx13new_allocatorI5TokenE8allocateEmPKv
+	.section	.text._ZNSt13move_iteratorIP5TokenEC2ES1_,"axG",@progbits,_ZNSt13move_iteratorIP5TokenEC5ES1_,comdat
+	.align 2
+	.weak	_ZNSt13move_iteratorIP5TokenEC2ES1_
+	.type	_ZNSt13move_iteratorIP5TokenEC2ES1_, @function
+_ZNSt13move_iteratorIP5TokenEC2ES1_:
+.LFB2333:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-8(%rbp), %rax
+	movq	-16(%rbp), %rdx
+	movq	%rdx, (%rax)
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2333:
+	.size	_ZNSt13move_iteratorIP5TokenEC2ES1_, .-_ZNSt13move_iteratorIP5TokenEC2ES1_
+	.weak	_ZNSt13move_iteratorIP5TokenEC1ES1_
+	.set	_ZNSt13move_iteratorIP5TokenEC1ES1_,_ZNSt13move_iteratorIP5TokenEC2ES1_
+	.section	.text._ZSt18uninitialized_copyISt13move_iteratorIP5TokenES2_ET0_T_S5_S4_,"axG",@progbits,_ZSt18uninitialized_copyISt13move_iteratorIP5TokenES2_ET0_T_S5_S4_,comdat
+	.weak	_ZSt18uninitialized_copyISt13move_iteratorIP5TokenES2_ET0_T_S5_S4_
+	.type	_ZSt18uninitialized_copyISt13move_iteratorIP5TokenES2_ET0_T_S5_S4_, @function
+_ZSt18uninitialized_copyISt13move_iteratorIP5TokenES2_ET0_T_S5_S4_:
+.LFB2335:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$48, %rsp
+	movq	%rdi, -32(%rbp)
+	movq	%rsi, -48(%rbp)
+	movq	%rdx, -40(%rbp)
+	movb	$1, -1(%rbp)
+	movq	-40(%rbp), %rdx
+	movq	-48(%rbp), %rcx
+	movq	-32(%rbp), %rax
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt20__uninitialized_copyILb1EE13__uninit_copyISt13move_iteratorIP5TokenES4_EET0_T_S7_S6_
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2335:
+	.size	_ZSt18uninitialized_copyISt13move_iteratorIP5TokenES2_ET0_T_S5_S4_, .-_ZSt18uninitialized_copyISt13move_iteratorIP5TokenES2_ET0_T_S5_S4_
+	.section	.text._ZSt12__miter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEENSt11_Miter_baseIT_E13iterator_typeESA_,"axG",@progbits,_ZSt12__miter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEENSt11_Miter_baseIT_E13iterator_typeESA_,comdat
+	.weak	_ZSt12__miter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEENSt11_Miter_baseIT_E13iterator_typeESA_
+	.type	_ZSt12__miter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEENSt11_Miter_baseIT_E13iterator_typeESA_, @function
+_ZSt12__miter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEENSt11_Miter_baseIT_E13iterator_typeESA_:
+.LFB2346:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -16(%rbp)
+	movq	-16(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt10_Iter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEELb0EE7_S_baseES8_
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2346:
+	.size	_ZSt12__miter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEENSt11_Miter_baseIT_E13iterator_typeESA_, .-_ZSt12__miter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEENSt11_Miter_baseIT_E13iterator_typeESA_
+	.section	.text._ZSt14__copy_move_a2ILb0EN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET1_T0_SB_SA_,"axG",@progbits,_ZSt14__copy_move_a2ILb0EN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET1_T0_SB_SA_,comdat
+	.weak	_ZSt14__copy_move_a2ILb0EN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET1_T0_SB_SA_
+	.type	_ZSt14__copy_move_a2ILb0EN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET1_T0_SB_SA_, @function
+_ZSt14__copy_move_a2ILb0EN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET1_T0_SB_SA_:
+.LFB2347:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%r12
+	pushq	%rbx
+	subq	$32, %rsp
+	.cfi_offset 12, -24
+	.cfi_offset 3, -32
+	movq	%rdi, -32(%rbp)
+	movq	%rsi, -48(%rbp)
+	movq	%rdx, -40(%rbp)
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt12__niter_baseIP5TokenENSt11_Niter_baseIT_E13iterator_typeES3_
+	movq	%rax, %r12
+	movq	-48(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt12__niter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEENSt11_Niter_baseIT_E13iterator_typeESA_
+	movq	%rax, %rbx
+	movq	-32(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt12__niter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEENSt11_Niter_baseIT_E13iterator_typeESA_
+	movq	%r12, %rdx
+	movq	%rbx, %rsi
+	movq	%rax, %rdi
+	call	_ZSt13__copy_move_aILb0EPK5TokenPS0_ET1_T0_S5_S4_
+	addq	$32, %rsp
+	popq	%rbx
+	popq	%r12
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2347:
+	.size	_ZSt14__copy_move_a2ILb0EN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET1_T0_SB_SA_, .-_ZSt14__copy_move_a2ILb0EN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEPS2_ET1_T0_SB_SA_
+	.section	.text._ZNK9__gnu_cxx13new_allocatorI5TokenE8max_sizeEv,"axG",@progbits,_ZNK9__gnu_cxx13new_allocatorI5TokenE8max_sizeEv,comdat
+	.align 2
+	.weak	_ZNK9__gnu_cxx13new_allocatorI5TokenE8max_sizeEv
+	.type	_ZNK9__gnu_cxx13new_allocatorI5TokenE8max_sizeEv, @function
+_ZNK9__gnu_cxx13new_allocatorI5TokenE8max_sizeEv:
+.LFB2348:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movabsq	$2305843009213693951, %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2348:
+	.size	_ZNK9__gnu_cxx13new_allocatorI5TokenE8max_sizeEv, .-_ZNK9__gnu_cxx13new_allocatorI5TokenE8max_sizeEv
+	.section	.text._ZNSt20__uninitialized_copyILb1EE13__uninit_copyISt13move_iteratorIP5TokenES4_EET0_T_S7_S6_,"axG",@progbits,_ZNSt20__uninitialized_copyILb1EE13__uninit_copyISt13move_iteratorIP5TokenES4_EET0_T_S7_S6_,comdat
+	.weak	_ZNSt20__uninitialized_copyILb1EE13__uninit_copyISt13move_iteratorIP5TokenES4_EET0_T_S7_S6_
+	.type	_ZNSt20__uninitialized_copyILb1EE13__uninit_copyISt13move_iteratorIP5TokenES4_EET0_T_S7_S6_, @function
+_ZNSt20__uninitialized_copyILb1EE13__uninit_copyISt13move_iteratorIP5TokenES4_EET0_T_S7_S6_:
+.LFB2349:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -16(%rbp)
+	movq	%rsi, -32(%rbp)
+	movq	%rdx, -24(%rbp)
+	movq	-24(%rbp), %rdx
+	movq	-32(%rbp), %rcx
+	movq	-16(%rbp), %rax
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	_ZSt4copyISt13move_iteratorIP5TokenES2_ET0_T_S5_S4_
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2349:
+	.size	_ZNSt20__uninitialized_copyILb1EE13__uninit_copyISt13move_iteratorIP5TokenES4_EET0_T_S7_S6_, .-_ZNSt20__uninitialized_copyILb1EE13__uninit_copyISt13move_iteratorIP5TokenES4_EET0_T_S7_S6_
+	.section	.text._ZNSt10_Iter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEELb0EE7_S_baseES8_,"axG",@progbits,_ZNSt10_Iter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEELb0EE7_S_baseES8_,comdat
+	.weak	_ZNSt10_Iter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEELb0EE7_S_baseES8_
+	.type	_ZNSt10_Iter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEELb0EE7_S_baseES8_, @function
+_ZNSt10_Iter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEELb0EE7_S_baseES8_:
+.LFB2358:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -16(%rbp)
+	movq	-16(%rbp), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2358:
+	.size	_ZNSt10_Iter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEELb0EE7_S_baseES8_, .-_ZNSt10_Iter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEELb0EE7_S_baseES8_
+	.section	.text._ZSt12__niter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEENSt11_Niter_baseIT_E13iterator_typeESA_,"axG",@progbits,_ZSt12__niter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEENSt11_Niter_baseIT_E13iterator_typeESA_,comdat
+	.weak	_ZSt12__niter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEENSt11_Niter_baseIT_E13iterator_typeESA_
+	.type	_ZSt12__niter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEENSt11_Niter_baseIT_E13iterator_typeESA_, @function
+_ZSt12__niter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEENSt11_Niter_baseIT_E13iterator_typeESA_:
+.LFB2359:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -16(%rbp)
+	movq	-16(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt10_Iter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEELb1EE7_S_baseES8_
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2359:
+	.size	_ZSt12__niter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEENSt11_Niter_baseIT_E13iterator_typeESA_, .-_ZSt12__niter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEEENSt11_Niter_baseIT_E13iterator_typeESA_
+	.section	.text._ZSt12__niter_baseIP5TokenENSt11_Niter_baseIT_E13iterator_typeES3_,"axG",@progbits,_ZSt12__niter_baseIP5TokenENSt11_Niter_baseIT_E13iterator_typeES3_,comdat
+	.weak	_ZSt12__niter_baseIP5TokenENSt11_Niter_baseIT_E13iterator_typeES3_
+	.type	_ZSt12__niter_baseIP5TokenENSt11_Niter_baseIT_E13iterator_typeES3_, @function
+_ZSt12__niter_baseIP5TokenENSt11_Niter_baseIT_E13iterator_typeES3_:
+.LFB2360:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt10_Iter_baseIP5TokenLb0EE7_S_baseES1_
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2360:
+	.size	_ZSt12__niter_baseIP5TokenENSt11_Niter_baseIT_E13iterator_typeES3_, .-_ZSt12__niter_baseIP5TokenENSt11_Niter_baseIT_E13iterator_typeES3_
+	.section	.text._ZSt13__copy_move_aILb0EPK5TokenPS0_ET1_T0_S5_S4_,"axG",@progbits,_ZSt13__copy_move_aILb0EPK5TokenPS0_ET1_T0_S5_S4_,comdat
+	.weak	_ZSt13__copy_move_aILb0EPK5TokenPS0_ET1_T0_S5_S4_
+	.type	_ZSt13__copy_move_aILb0EPK5TokenPS0_ET1_T0_S5_S4_, @function
+_ZSt13__copy_move_aILb0EPK5TokenPS0_ET1_T0_S5_S4_:
+.LFB2361:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$48, %rsp
+	movq	%rdi, -24(%rbp)
+	movq	%rsi, -32(%rbp)
+	movq	%rdx, -40(%rbp)
+	movb	$1, -1(%rbp)
+	movq	-40(%rbp), %rdx
+	movq	-32(%rbp), %rcx
+	movq	-24(%rbp), %rax
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mI5TokenEEPT_PKS4_S7_S5_
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2361:
+	.size	_ZSt13__copy_move_aILb0EPK5TokenPS0_ET1_T0_S5_S4_, .-_ZSt13__copy_move_aILb0EPK5TokenPS0_ET1_T0_S5_S4_
+	.section	.text._ZSt4copyISt13move_iteratorIP5TokenES2_ET0_T_S5_S4_,"axG",@progbits,_ZSt4copyISt13move_iteratorIP5TokenES2_ET0_T_S5_S4_,comdat
+	.weak	_ZSt4copyISt13move_iteratorIP5TokenES2_ET0_T_S5_S4_
+	.type	_ZSt4copyISt13move_iteratorIP5TokenES2_ET0_T_S5_S4_, @function
+_ZSt4copyISt13move_iteratorIP5TokenES2_ET0_T_S5_S4_:
+.LFB2362:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$40, %rsp
+	.cfi_offset 3, -24
+	movq	%rdi, -32(%rbp)
+	movq	%rsi, -48(%rbp)
+	movq	%rdx, -40(%rbp)
+	movq	-48(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt12__miter_baseISt13move_iteratorIP5TokenEENSt11_Miter_baseIT_E13iterator_typeES5_
+	movq	%rax, %rbx
+	movq	-32(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt12__miter_baseISt13move_iteratorIP5TokenEENSt11_Miter_baseIT_E13iterator_typeES5_
+	movq	%rax, %rcx
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdx
+	movq	%rbx, %rsi
+	movq	%rcx, %rdi
+	call	_ZSt14__copy_move_a2ILb1EP5TokenS1_ET1_T0_S3_S2_
+	addq	$40, %rsp
+	popq	%rbx
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2362:
+	.size	_ZSt4copyISt13move_iteratorIP5TokenES2_ET0_T_S5_S4_, .-_ZSt4copyISt13move_iteratorIP5TokenES2_ET0_T_S5_S4_
+	.section	.text._ZNSt10_Iter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEELb1EE7_S_baseES8_,"axG",@progbits,_ZNSt10_Iter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEELb1EE7_S_baseES8_,comdat
+	.weak	_ZNSt10_Iter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEELb1EE7_S_baseES8_
+	.type	_ZNSt10_Iter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEELb1EE7_S_baseES8_, @function
+_ZNSt10_Iter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEELb1EE7_S_baseES8_:
+.LFB2363:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -16(%rbp)
+	leaq	-16(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNK9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS1_SaIS1_EEE4baseEv
+	movq	(%rax), %rax
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2363:
+	.size	_ZNSt10_Iter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEELb1EE7_S_baseES8_, .-_ZNSt10_Iter_baseIN9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS2_SaIS2_EEEELb1EE7_S_baseES8_
+	.section	.text._ZNSt10_Iter_baseIP5TokenLb0EE7_S_baseES1_,"axG",@progbits,_ZNSt10_Iter_baseIP5TokenLb0EE7_S_baseES1_,comdat
+	.weak	_ZNSt10_Iter_baseIP5TokenLb0EE7_S_baseES1_
+	.type	_ZNSt10_Iter_baseIP5TokenLb0EE7_S_baseES1_, @function
+_ZNSt10_Iter_baseIP5TokenLb0EE7_S_baseES1_:
+.LFB2364:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2364:
+	.size	_ZNSt10_Iter_baseIP5TokenLb0EE7_S_baseES1_, .-_ZNSt10_Iter_baseIP5TokenLb0EE7_S_baseES1_
+	.section	.text._ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mI5TokenEEPT_PKS4_S7_S5_,"axG",@progbits,_ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mI5TokenEEPT_PKS4_S7_S5_,comdat
+	.weak	_ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mI5TokenEEPT_PKS4_S7_S5_
+	.type	_ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mI5TokenEEPT_PKS4_S7_S5_, @function
+_ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mI5TokenEEPT_PKS4_S7_S5_:
+.LFB2365:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$48, %rsp
+	movq	%rdi, -24(%rbp)
+	movq	%rsi, -32(%rbp)
+	movq	%rdx, -40(%rbp)
+	movq	-32(%rbp), %rdx
+	movq	-24(%rbp), %rax
+	subq	%rax, %rdx
+	movq	%rdx, %rax
+	sarq	$3, %rax
+	movq	%rax, -8(%rbp)
+	cmpq	$0, -8(%rbp)
+	je	.L269
+	movq	-8(%rbp), %rax
+	leaq	0(,%rax,8), %rdx
+	movq	-24(%rbp), %rcx
+	movq	-40(%rbp), %rax
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	memmove
+.L269:
+	movq	-8(%rbp), %rax
+	leaq	0(,%rax,8), %rdx
+	movq	-40(%rbp), %rax
+	addq	%rdx, %rax
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2365:
+	.size	_ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mI5TokenEEPT_PKS4_S7_S5_, .-_ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mI5TokenEEPT_PKS4_S7_S5_
+	.section	.text._ZSt12__miter_baseISt13move_iteratorIP5TokenEENSt11_Miter_baseIT_E13iterator_typeES5_,"axG",@progbits,_ZSt12__miter_baseISt13move_iteratorIP5TokenEENSt11_Miter_baseIT_E13iterator_typeES5_,comdat
+	.weak	_ZSt12__miter_baseISt13move_iteratorIP5TokenEENSt11_Miter_baseIT_E13iterator_typeES5_
+	.type	_ZSt12__miter_baseISt13move_iteratorIP5TokenEENSt11_Miter_baseIT_E13iterator_typeES5_, @function
+_ZSt12__miter_baseISt13move_iteratorIP5TokenEENSt11_Miter_baseIT_E13iterator_typeES5_:
+.LFB2366:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -16(%rbp)
+	movq	-16(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt10_Iter_baseISt13move_iteratorIP5TokenELb1EE7_S_baseES3_
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2366:
+	.size	_ZSt12__miter_baseISt13move_iteratorIP5TokenEENSt11_Miter_baseIT_E13iterator_typeES5_, .-_ZSt12__miter_baseISt13move_iteratorIP5TokenEENSt11_Miter_baseIT_E13iterator_typeES5_
+	.section	.text._ZSt14__copy_move_a2ILb1EP5TokenS1_ET1_T0_S3_S2_,"axG",@progbits,_ZSt14__copy_move_a2ILb1EP5TokenS1_ET1_T0_S3_S2_,comdat
+	.weak	_ZSt14__copy_move_a2ILb1EP5TokenS1_ET1_T0_S3_S2_
+	.type	_ZSt14__copy_move_a2ILb1EP5TokenS1_ET1_T0_S3_S2_, @function
+_ZSt14__copy_move_a2ILb1EP5TokenS1_ET1_T0_S3_S2_:
+.LFB2367:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%r12
+	pushq	%rbx
+	subq	$32, %rsp
+	.cfi_offset 12, -24
+	.cfi_offset 3, -32
+	movq	%rdi, -24(%rbp)
+	movq	%rsi, -32(%rbp)
+	movq	%rdx, -40(%rbp)
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt12__niter_baseIP5TokenENSt11_Niter_baseIT_E13iterator_typeES3_
+	movq	%rax, %r12
+	movq	-32(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt12__niter_baseIP5TokenENSt11_Niter_baseIT_E13iterator_typeES3_
+	movq	%rax, %rbx
+	movq	-24(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZSt12__niter_baseIP5TokenENSt11_Niter_baseIT_E13iterator_typeES3_
+	movq	%r12, %rdx
+	movq	%rbx, %rsi
+	movq	%rax, %rdi
+	call	_ZSt13__copy_move_aILb1EP5TokenS1_ET1_T0_S3_S2_
+	addq	$32, %rsp
+	popq	%rbx
+	popq	%r12
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2367:
+	.size	_ZSt14__copy_move_a2ILb1EP5TokenS1_ET1_T0_S3_S2_, .-_ZSt14__copy_move_a2ILb1EP5TokenS1_ET1_T0_S3_S2_
+	.section	.text._ZNK9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS1_SaIS1_EEE4baseEv,"axG",@progbits,_ZNK9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS1_SaIS1_EEE4baseEv,comdat
+	.align 2
+	.weak	_ZNK9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS1_SaIS1_EEE4baseEv
+	.type	_ZNK9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS1_SaIS1_EEE4baseEv, @function
+_ZNK9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS1_SaIS1_EEE4baseEv:
+.LFB2368:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2368:
+	.size	_ZNK9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS1_SaIS1_EEE4baseEv, .-_ZNK9__gnu_cxx17__normal_iteratorIPK5TokenSt6vectorIS1_SaIS1_EEE4baseEv
+	.section	.text._ZNSt10_Iter_baseISt13move_iteratorIP5TokenELb1EE7_S_baseES3_,"axG",@progbits,_ZNSt10_Iter_baseISt13move_iteratorIP5TokenELb1EE7_S_baseES3_,comdat
+	.weak	_ZNSt10_Iter_baseISt13move_iteratorIP5TokenELb1EE7_S_baseES3_
+	.type	_ZNSt10_Iter_baseISt13move_iteratorIP5TokenELb1EE7_S_baseES3_, @function
+_ZNSt10_Iter_baseISt13move_iteratorIP5TokenELb1EE7_S_baseES3_:
+.LFB2369:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -16(%rbp)
+	leaq	-16(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt13move_iteratorIP5TokenE4baseEv
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2369:
+	.size	_ZNSt10_Iter_baseISt13move_iteratorIP5TokenELb1EE7_S_baseES3_, .-_ZNSt10_Iter_baseISt13move_iteratorIP5TokenELb1EE7_S_baseES3_
+	.section	.text._ZSt13__copy_move_aILb1EP5TokenS1_ET1_T0_S3_S2_,"axG",@progbits,_ZSt13__copy_move_aILb1EP5TokenS1_ET1_T0_S3_S2_,comdat
+	.weak	_ZSt13__copy_move_aILb1EP5TokenS1_ET1_T0_S3_S2_
+	.type	_ZSt13__copy_move_aILb1EP5TokenS1_ET1_T0_S3_S2_, @function
+_ZSt13__copy_move_aILb1EP5TokenS1_ET1_T0_S3_S2_:
+.LFB2370:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$48, %rsp
+	movq	%rdi, -24(%rbp)
+	movq	%rsi, -32(%rbp)
+	movq	%rdx, -40(%rbp)
+	movb	$1, -1(%rbp)
+	movq	-40(%rbp), %rdx
+	movq	-32(%rbp), %rcx
+	movq	-24(%rbp), %rax
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt11__copy_moveILb1ELb1ESt26random_access_iterator_tagE8__copy_mI5TokenEEPT_PKS4_S7_S5_
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2370:
+	.size	_ZSt13__copy_move_aILb1EP5TokenS1_ET1_T0_S3_S2_, .-_ZSt13__copy_move_aILb1EP5TokenS1_ET1_T0_S3_S2_
+	.section	.text._ZNKSt13move_iteratorIP5TokenE4baseEv,"axG",@progbits,_ZNKSt13move_iteratorIP5TokenE4baseEv,comdat
+	.align 2
+	.weak	_ZNKSt13move_iteratorIP5TokenE4baseEv
+	.type	_ZNKSt13move_iteratorIP5TokenE4baseEv, @function
+_ZNKSt13move_iteratorIP5TokenE4baseEv:
+.LFB2371:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	(%rax), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2371:
+	.size	_ZNKSt13move_iteratorIP5TokenE4baseEv, .-_ZNKSt13move_iteratorIP5TokenE4baseEv
+	.section	.text._ZNSt11__copy_moveILb1ELb1ESt26random_access_iterator_tagE8__copy_mI5TokenEEPT_PKS4_S7_S5_,"axG",@progbits,_ZNSt11__copy_moveILb1ELb1ESt26random_access_iterator_tagE8__copy_mI5TokenEEPT_PKS4_S7_S5_,comdat
+	.weak	_ZNSt11__copy_moveILb1ELb1ESt26random_access_iterator_tagE8__copy_mI5TokenEEPT_PKS4_S7_S5_
+	.type	_ZNSt11__copy_moveILb1ELb1ESt26random_access_iterator_tagE8__copy_mI5TokenEEPT_PKS4_S7_S5_, @function
+_ZNSt11__copy_moveILb1ELb1ESt26random_access_iterator_tagE8__copy_mI5TokenEEPT_PKS4_S7_S5_:
+.LFB2372:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$48, %rsp
+	movq	%rdi, -24(%rbp)
+	movq	%rsi, -32(%rbp)
+	movq	%rdx, -40(%rbp)
+	movq	-32(%rbp), %rdx
+	movq	-24(%rbp), %rax
+	subq	%rax, %rdx
+	movq	%rdx, %rax
+	sarq	$3, %rax
+	movq	%rax, -8(%rbp)
+	cmpq	$0, -8(%rbp)
+	je	.L284
+	movq	-8(%rbp), %rax
+	leaq	0(,%rax,8), %rdx
+	movq	-24(%rbp), %rcx
+	movq	-40(%rbp), %rax
+	movq	%rcx, %rsi
+	movq	%rax, %rdi
+	call	memmove
+.L284:
+	movq	-8(%rbp), %rax
+	leaq	0(,%rax,8), %rdx
+	movq	-40(%rbp), %rax
+	addq	%rdx, %rax
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2372:
+	.size	_ZNSt11__copy_moveILb1ELb1ESt26random_access_iterator_tagE8__copy_mI5TokenEEPT_PKS4_S7_S5_, .-_ZNSt11__copy_moveILb1ELb1ESt26random_access_iterator_tagE8__copy_mI5TokenEEPT_PKS4_S7_S5_
+	.text
+	.type	_Z41__static_initialization_and_destruction_0ii, @function
+_Z41__static_initialization_and_destruction_0ii:
+.LFB2373:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movl	%edi, -4(%rbp)
+	movl	%esi, -8(%rbp)
+	cmpl	$1, -4(%rbp)
+	jne	.L288
+	cmpl	$65535, -8(%rbp)
+	jne	.L288
+	movl	$_ZStL8__ioinit, %edi
+	call	_ZNSt8ios_base4InitC1Ev
+	movl	$__dso_handle, %edx
+	movl	$_ZStL8__ioinit, %esi
+	movl	$_ZNSt8ios_base4InitD1Ev, %edi
+	call	__cxa_atexit
+.L288:
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2373:
+	.size	_Z41__static_initialization_and_destruction_0ii, .-_Z41__static_initialization_and_destruction_0ii
+	.type	_GLOBAL__sub_I__Z7convertSs, @function
+_GLOBAL__sub_I__Z7convertSs:
+.LFB2374:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movl	$65535, %esi
+	movl	$1, %edi
+	call	_Z41__static_initialization_and_destruction_0ii
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2374:
+	.size	_GLOBAL__sub_I__Z7convertSs, .-_GLOBAL__sub_I__Z7convertSs
+	.section	.init_array,"aw"
+	.align 8
+	.quad	_GLOBAL__sub_I__Z7convertSs
+	.hidden	__dso_handle
+	.ident	"GCC: (GNU) 5.3.1 20160406 (Red Hat 5.3.1-6)"
+	.section	.note.GNU-stack,"",@progbits

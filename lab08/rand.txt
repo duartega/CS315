@@ -1,0 +1,16 @@
+  
+  srand(time(NULL));
+  
+  /*
+  int i = 0;
+  for (int i = 0; i < num; i++)
+  //while (i != num)
+  {
+    int x = rand() % (num);
+    for (int j = 0; j < A.size(); j++)
+    while (x == A[j])
+    x = rand() % (num);
+    A.push_back(x);
+    //i++;
+  }
+  */

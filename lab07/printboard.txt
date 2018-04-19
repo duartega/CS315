@@ -1,0 +1,24 @@
+void PrintBoard(bool board[49])
+{
+  for (int row = 0; row < 7; ++row)
+    {
+      for (int col = 0; col < 7; ++col)
+        {
+	  char c;
+	  if ((row < 2 || row > 4) && (col < 2 || col > 4))
+            {
+	      c = ' ';
+            }
+	  else
+            {
+	      int index = row * 7 + col;
+	      c = board[index] ? '*' : '.';
+            }
+	  cout << c << ' ';
+        }
+      cout << endl;
+    }
+  cout << endl;
+}
+
+void PrintBoard(bool board[49]); // Prints little animation of board
