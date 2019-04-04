@@ -1,0 +1,181 @@
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <vector>
+#include <time.h>
+#include <cstdlib>	
+#include <fstream>
+#include <algorithm>
+#include <time.h>
+#include <iomanip>
+#include "hfile.h"
+
+using namespace std;
+
+void ReadWords (int argc, char * argv []);
+void buildTree (int argc, char * argv [], int & totalWords, int & uniqueWords, BinarySearchTree<string> & myTree);
+void out (int totalWords, int uniqueWords, double timer, BinarySearchTree<string> & myTree);
+
+int main(int argc, char * argv [])
+{
+
+  int uniqueWords = 0;
+  int totalWords = 0;
+    BinarySearchTree<string> myTree;
+
+  // Read in the file and to check if the files exist and error check
+  ReadWords(argc, argv);
+
+  double start_time = clock();
+  // Then read in the words
+  buildTree(argc, argv, totalWords, uniqueWords, myTree);
+  double finish_time = clock();
+
+  double timer = (finish_time - start_time) / CLOCKS_PER_SEC;
+
+  out(totalWords, uniqueWords, timer, myTree);
+
+  return 0;
+}
+
+void ReadWords (int argc, char * argv []) {
+    // Exit if no file name
+    if (argc < 2) {
+        cout << "Usage: " << argv[0] << " <file name>\n";
+        exit(1);
+    }
+
+    // Declare and open an input file
+
+    ifstream input(argv[1]);
+
+    // Check to see if the file was successfully opened
+    // Exit if no file found
+    if (input.fail()) {
+        cout << "File: " << argv[1] << " not found\n";
+        exit(2);
+    }
+}
+void buildTree (int argc, char * argv [], int & wordCount, int & uniqueCount, BinarySearchTree<string> & myTree)
+{
+    // Declare and open an input file
+  ifstream input(argv[1]);
+  string str;
+  string newStr;
+  string line;
+  int lineNum = 1;
+
+while (getline(input, line))
+{
+    stringstream s(line);
+    string potentialWord;
+
+    while (s >> potentialWord)
+    {
+        for (int i = 0; i < potentialWord.size(); i++)
+        {
+            if (potentialWord[i] == ' ' || potentialWord[i] == '.' || potentialWord[i] == ',')
+              break;
+            else
+              newStr += potentialWord[i];
+        }
+                      wordCount ++;
+        if (!myTree.contains(newStr))
+            uniqueCount++;
+    myTree.insert(newStr, lineNum);
+    newStr.clear();
+  }
+  lineNum++;
+  }
+
+input.close();
+
+}
+
+void out (int totalWords, int uniqueWords, double timer, BinarySearchTree<string> & myTree) {
+
+  string in;
+    string searchWord;
+  cout << "Total number of words:\t\t\t" << totalWords << endl;
+  cout << "Total number of distinct words:\t\t" << uniqueWords << endl;
+  cout << "Time taken to build index using BST is: " << timer << endl;
+  cout << "Height of BST tree is:\t\t\t";
+    myTree.findHeight();
+    cout << endl;
+  cout << "Options: (1) display index, (2) search, (3) save index, (4) quit\n";
+  cin >> in;
+
+    if (in == "1")
+    {
+        cout << "Binary Search Tree Index:\n";
+        cout << "-------------------------\n";
+        myTree.printTree();
+    }
+    if (in == "2")
+    {
+        cout << "Search word? ";
+        cin >> searchWord;
+        if (myTree.contains(searchWord)) {
+            cout << "Line numbers <BST>: ";
+            myTree.search(searchWord);
+        }
+        else
+        {
+            cout <<"The word is not in the document\n";
+        }
+    }
+    if (in == "3")
+    {
+        string outfile;
+        cout << "Please enter a output file name: ";
+        cin >> outfile;
+
+        // Open the output file
+        ofstream output(outfile);
+
+        myTree.printTree(output);
+
+    }
+
+  while (in != "4")
+    {
+        cout << "\nOptions: (1) display index, (2) search, (3) save index, (4) quit\n";
+        cin >> in;
+
+      if (in == "1")
+	{
+    cout << "Binary Search Tree Index:\n";
+    cout << "-------------------------\n";
+    myTree.printTree();
+	}
+      if (in == "2")
+	{
+        cout << "Search word? ";
+        cin >> searchWord;
+        if (myTree.contains(searchWord)) {
+            cout << "Line numbers <BST>: ";
+            myTree.search(searchWord);
+        }
+        else
+        {
+            cout <<"The word is not in the document\n";
+        }
+    }
+      if (in == "3")
+	{
+        string outfile;
+        cout << "Please enter a output file name: ";
+        cin >> outfile;
+
+        // Open the output file
+        ofstream output(outfile);
+
+        myTree.printTree(output);
+
+	}
+      if (in == "4")
+	{
+	  exit(1);
+	}
+    }
+}

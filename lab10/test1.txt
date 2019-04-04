@@ -1,0 +1,11 @@
+    123.45
+    .abc.
+    This is an example.This is another one.
+    Hello I'm O'Donnell
+    These are "air" quotes.
+    state-of-the-art
+    air.a
+
+    descriptiveness
+    asynchronousness
+
